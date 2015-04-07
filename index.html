@@ -19,7 +19,7 @@
 	// (Numbered from 1 -> total)
 	function setBackgroundImage() {
 		// NOTE: set numBgs to the number of bg images you have
-		var numBgs = 4;
+		var numBgs = 3;
 		var num = Math.ceil((Math.random() * numBgs) + 1);
 		var style = "url('images/bg" + num + ".jpg')";
 		elements = document.getElementsByClassName('fullscreen-img');
@@ -34,16 +34,18 @@
 		<div class = "fullscreen-img"></div>
 		<div id = "copy" class = "center">
 			<img id = "profile" src = "images/main_Gem.png"/> <!-- SPECIFY A MAIN PHOTO -->
+			<h1> </h1>
 			<h1><center>You Found Us!</center></h1>
-			<h2>We are mGEM.</h2>
+			<h2><center>We are mGEM.</center></h2>
 			<p>We are @McMasterU students using synthetic biology to
 			make the world a better place. The site is still
 			under development, in the meantime, you 
 			can find me here: </p>
 			<nav id="menu">
+				<center>
 				<ul>
 					<li>
-						<a title="Check out my code on GitHub" href="https://github.com/iklaush" class="menu-item">
+						<a title="Check out my code on GitHub" href="https://github.com/mgem" class="menu-item">
 			    			<img src="images/git1.png" onmouseover="this.src='images/git2.png'" onmouseout="this.src='images/git1.png'" />
 						</a>
 					</li>
@@ -53,7 +55,7 @@
 						</a>
 					</li>-->
 					<li>
-						<a title="Follow me on Twitter" href="https://twitter.com/iKlaush" class="menu-item">
+						<a title="Follow me on Twitter" href="https://twitter.com/mgem" class="menu-item">
 			    			<img src="images/twit1.png" onmouseover="this.src='images/twit2.png'" onmouseout="this.src='images/twit1.png'" />
 						</a>
 					</li>
@@ -62,7 +64,8 @@
 						<a title="Send me an Email" href="mailto:contact@mcmastergem.com" class="menu-item">
 			    			<img src="images/mail1.png" onmouseover="this.src='images/mail2.png'" onmouseout="this.src='images/mail1.png'" />
 						</a>
-					</li>			
+					</li>	
+					</center>		
 				</ul>
 			</nav>
 		</div>
