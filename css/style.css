@@ -12,9 +12,9 @@ html { background-color: #eee; }
     font-style: normal;
 
 }
-h1 { font-family: "bebas_neueregular", Helvetica, Arial, Sans-Serif; font-size: 46pt; color: white; }
-h2 { font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; font-size: 18pt; font-weight: lighter; color: white; margin-bottom: 5px; }
-p { font-family: "Helvetica Neue", Arial, Sans-Serif; font-size: 14pt; font-weight: lighter; color: white; }
+h1 { font-family: "bebas_neueregular", Helvetica, Arial, Sans-Serif; font-size: 46pt; color: black; }
+h2 { font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif; font-size: 18pt; font-weight: lighter; color: black; margin-bottom: 5px; }
+p { font-family: "Helvetica Neue", Arial, Sans-Serif; font-size: 14pt; font-weight: lighter; color: black; }
 a { text-decoration: none; }
 
 .center {
