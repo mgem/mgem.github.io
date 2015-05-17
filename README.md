@@ -1,3 +1,4 @@
-# launchsite
-Our temporary Website, if anyone is interested in the HTML and CSS (as well as some JS scripting) for the webpage. Please remember to fork it!
-![](http://i.imgur.com/L0mEZ3o.png)
+# mGEM Official Website
+This the McMaster Genetically Engineered Machines' official webpage. Check it out, take a spin, tell us how you like it or how it should be improved! Please remember to fork it!
+
+![](http://i.imgur.com/KNaXLMX.png)
