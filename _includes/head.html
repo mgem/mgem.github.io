@@ -15,14 +15,63 @@
     ================================================== -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>mGEM - McMaster Genetically Engineered Machine</title>
     <meta name="description" content="mGEM is an undergraduate run synthetic biology program to learn, understand, and implement synbio techniques to further advance science.">
     <meta name="keywords" content="synthetic biology, mcmaster, university, igem, mgem, genetically, machined, engineered, bioengineering, biotechnology, international, biobricks">
-    <meta name="author" content="Kushal Panchal">
+    <meta name="author" content="Kushal Panchal"> -->
+
+        <!-- facebook Open Graph Metadatas -->
+    <meta content="609039549219229" property="fb:app_id">
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.title %}
+      <meta content="{{ page.title }}" property="og:title">
+    {% endif %}
+    {% if page.title %}
+      <meta content="article" property="og:type">
+    {% else %}
+      <meta content="website" property="og:type">
+    {% endif %}
+    {% if page.description %}
+      <meta content="{{ page.description }}" property="og:description">
+    {% endif %}
+    {% if page.url %}
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.img %}
+      <meta content="{{ site.url }}/img/{{ page.img }}" property="og:image">
+    {% endif %}
+    {% if page.categories %}
+      {% for category in page.categories limit:1 %}
+      <meta content="{{ category }}" property="article:section">
+      {% endfor %}
+    {% endif %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}
+    {% endif %}
+
+
+    <!-- Twitter cards metadatas -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iGEM_McMaster">
+    <meta name="twitter:creator" content="@iGEM_McMaster">
+    {% if page.title %}
+      <meta name="twitter:title" content="{{ page.title }}">
+    {% endif %}
+    {% if page.url %}
+      <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+      <meta name="twitter:description" content="{{ page.description }}">
+    {% endif %}
+    {% if page.img %}
+      <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.img }}">
+    {% endif %}
     
     <!-- MetaData Wrap -->
-    <link rel="canonical" href="http://mcmastergem.com/index.html" />
+    <!-- <link rel="canonical" href="http://mcmastergem.com/index.html" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="iGEM McMaster" />
@@ -35,7 +84,7 @@
     <meta name="twitter:title" content="iGem McMaster"/>
     <meta name="twitter:site" content="@iGEM_McMaster"/>
     <meta name="twitter:domain" content="mGEM"/>
-    <meta name="twitter:image:src" content="http://mcmastergem.com/img/logo.png"/>
+    <meta name="twitter:image:src" content="http://mcmastergem.com/img/logo.png"/> -->
     <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://mcmastergem.com/", "potentialAction": { "@type": "SearchAction", "target": "http://mcmastergem.com/?s={search_term}", "query-input": "required name=search_term" } }</script>
 
     <!-- Favicons
