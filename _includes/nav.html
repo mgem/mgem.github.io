@@ -1,0 +1,59 @@
+<!-- Fixed navbar -->
+<!-- <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{ "/"  | prepend: site.baseurl }}">{{ site.title }}</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
+        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
+        <li {% if page.title == "Portfolio" %}class="active"{% endif %}><a href="{{"/portfolio/" | prepend: site.baseurl }}">PORTFOLIO</a></li>
+        <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">ABOUT</a></li>
+        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+<!--   </div>
+</div>  -->
+
+<!-- Navigation bar -->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top" style="width: device-width">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/mGEM.png"/></a>
+    </div>
+    <!-- Collect   the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{site.baseurl}}/#tf-about" class="page-scroll">iGEM</a></li>
+            <li><a href="{{site.baseurl}}/#tf-mgem" class="page-scroll">mGEM</a></li>
+            <li><a href="{{site.baseurl}}/#tf-synbio" class="page-scroll">SynBio</a></li>
+        </ul>
+    </li>
+    <li><a href="{{site.baseurl}}/#tf-clients" class="page-scroll">Sponsors</a></li>
+    <li><a href="{{site.baseurl}}/blog" class="page-scroll" style="color:#990033">Blog</a></li> 
+    <li><a href="{{site.baseurl}}/404.html" class="page-scroll">Projects</a></li>
+    <li><a href="{{site.baseurl}}/tp.html" class="page-scroll">Team</a></li> 
+    
+    <li><a button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,25 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               mGEM
+tagline:             'McMaster Genetically Engineered Machine'
+description:         'A reserved <a href="http://mcmastergem.com" target="_blank">mGEM</a> webpage. Made by <a href="http://kushalpanchal.me" target="_blank">Kushal Panchal</a>.'
+url:                 http://mcmastergem.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Kushal Panchal
+  url:               http://kushalpanchal.me
+  email:             kushal.pnchl@gmail.com
+
+# Custom vars
+version:             0.1
+highlighter: rouge
+# comments: true
+

@@ -38,6 +38,10 @@ function main() {
         }
     });
 
+   $( window ).resize(function() {
+    $(".navbar-collapse").css({ maxHeight: $(window).height() - $(".navbar-header").height() + "px" });
+    });
+
     $('body').scrollspy({ 
         target: '.navbar-default',
         offset: 80
