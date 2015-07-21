@@ -22,4 +22,5 @@ author:
 version:             0.1
 highlighter: rouge
 # comments: true
+# paginate: 3
 

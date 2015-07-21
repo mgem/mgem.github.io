@@ -2,12 +2,12 @@
 layout: post
 title:  "You Found Us!"
 date:   2015-05-17 16:54:46
-author: [Kushal Panchal](http://kushalpanchal.me)
+author: Kushal Panchal
 categories: 
 - blog
 
 img: post01.jpg
-thumb: thumb01.jpg
+thumb: thumbs01.jpg
 ---
 
 This is just the beginning. The progress of our research will be documented like a true scientist and for all your reading pleasures. 
