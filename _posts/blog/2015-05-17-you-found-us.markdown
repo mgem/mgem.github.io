@@ -2,7 +2,7 @@
 layout: post
 title:  "You Found Us!"
 date:   2015-05-17 16:54:46
-author: Kushal Panchal
+author: [Kushal Panchal](http://kushalpanchal.me)
 categories: 
 - blog
 
