@@ -7,7 +7,7 @@ categories:
 - blog
 
 img: post01.jpg
-thumb: thumb01.jpg
+thumb: thumb01.png
 ---
 
 This is just the beginning. The progress of our research will be documented like a true scientist and for all your reading pleasures. 
