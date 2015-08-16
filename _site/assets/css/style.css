@@ -505,3 +505,9 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
