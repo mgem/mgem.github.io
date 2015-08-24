@@ -14,7 +14,8 @@ thumb: m-thumbnail.png
 
 Hello and welcome to [A Fledgling’s Guide to Cell Bio](http://mcmastergem.com/blog/)! For returning birdies, welcome back! And for newcomers, don’t be afraid, we’re gentle creatures. My name’s [Max](mailto:ngmc2@mcmaster.ca) and I’ll be your guide for today! So hop/read on as we begin our journey into synthetic biology lab work. First stop: Micropipetting!
 
-##1. How to Use a Micropipette: 1-1-2
+
+###1. How to Use a Micropipette: 1-1-2
 
 I remember, when I first started lab work, how I knew nothing about micropipettes. What are these sleek-looking machines that scientists are always photographed using? How simple is it to use? And why does everything smell?
 
@@ -61,7 +62,8 @@ Move the pipette tip into the container you want to add the sucked-up material i
 This concludes the basic use of a micropipette! Just repeat these steps *(1 push, 1 release, 2 push eject: 1-1-2)* each time you use a micropipette. Just remember: unless it's the exact same material and material source, and you're adding it to a sterile and empty container, *always change pipette tip between uses!* Otherwise you risk contamination of source material and your experiment.
  
 
-##2. DNA Resuspension: The First Step to Re-animation Sciences
+###2. DNA Resuspension: The First Step to Re-animation Sciences
+
 Now, quick re-cap to make sure we’re all on the same page! DNA is short-hand for *deoxyribonucleic acid*. You can learn more [here](http://www.dnai.org/timeline/), but for now you just need to know that it was discovered not too long ago (20th century) and is made up of two sugar-phosphate backbone that run antiparallel to each other. The nucleotides, Adenine, Thymine, Cytosine, and Guanine (A, T, C, and G), connect in pairs (A-T, C-G) to each other using hydrogen bonds (which is why DNA is so relatively stable compared with other hugely complex molecules!).
 
 So now that we know DNA, what’s resuspension? Well, image you’re sending someone some foods. Like apples. But they’re far away. Like [International Space Station](http://www.nasa.gov/mission_pages/station/main/) far away. You can't just send the astronauts fresh apples - they'll rot during the long journey! So instead, we have things like *freeze-dried apples*. By removing the water content from biological materials, the stability of the materials increases.
@@ -74,7 +76,8 @@ The DNA samples in each well are dry (via miniprepping - more on that in the fut
 
 There are 384 wells per plate, and the aluminium foil covering protects the DNA from contamination (we'll revisit this later). iGEM distributed not one, not two, but FIVE plates in total to each team! Super cool! And that brings us to our second stop:
 
-##3. Proper storage of DNA, enzymes, buffers, antibiotics, and competent cells: Super cool!
+###3. Proper storage of DNA, enzymes, buffers, antibiotics, and competent cells: Super cool!
+
 **Keep the DNA stored at -20°C. Otherwise the DNA might start degrading itself. DNA, enzymes, and buffers should be stored in a -20°C freezer** (unless specified otherwise by the supplier). **Some antibiotics should be stored in 4°C, although some can be stored at room temperature** (e.g. Kanamycin). The dried-state of an antibiotic might or might not be able to be stored at room temperature. It's important to read the [SDS (Safety Data Sheet)](https://www.msdsonline.com/blog/compliance-education/2012/08/20/from-msds-to-sds) and information provided by your supplier before handling, storing, and using any materials! These temperatures are just general ideas based on what we here at mGEM use.
 
 ![inside freezer](https://mnggraphics.files.wordpress.com/2015/08/img_4831.jpg){: .center-image .responsive-image }	
@@ -101,7 +104,8 @@ DH5α type cells: These are a special and commonly used variant of *E. coli* cel
 BL21 type cells: These are another special and commonly used variant of *E. coli* cells that have had their protease enzymes knocked out, allowing unnatural proteins to be kept intact. This is good for protein production, and is key for latter portions in experiments when analyzing the success of the plasmids.
 
 
-##4. Preparing Agar Plates and Overnight Cultures: 
+###4. Preparing Agar Plates and Overnight Cultures:
+ 
 We use Lysogeny Broth, commonly known as LB ([and technically not several other common names](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC321500/)), as our nutrient-containing growth medium for bacteria (a.k.a. this is the world in which our bacteria obtain their nutrients from). It's a barely-clumpy powder in solid form, and slightly orange-brown in wet form. It is *extremely* smelly, and though most of us dislike the smell, some people do quite enjoy it. Still, I don't recommend you sniffing the LB.
 
 Depending on your manufacturer of LB, the LB composition and thus recipe to make plates and tube cultures may vary, although the recipe should be on your LB container.
@@ -119,7 +123,12 @@ LB in its liquid state is also used for overnight cultures. These are cultures i
 It is important to note that these LB agar plates and LB overnight cultures are not only LB (and agar if appropriate), but also include an antibiotic, known as your Selection Marker. Only bacteria with plasmids containing the proper antibiotic resistance gene will survive in these mediums. This selectivity allows you to carefully select only those bacteria, or specimens, that have your plasmid (which contains this resistance gene). However, caution must be taken, as each antibiotic and its respective bacterial antibiotic-resistance mechanism differs. For example, resistance against Ampicillin (Amp) causes the destruction of Amp, and therefore cultures using Amp can only be incubated for 24h. Any longer and you risk other unknown bacteria growing in the medium, and thereby ruining the experiment sample.	
 
 
+----------
+
 ##Summary
+
+----------
+
 Wooaah that was a long post! Kudos if you read it all! If you skimmed over it, no problem, here's a summary table to compile all the most important bits:
 
 1. Micropipette
