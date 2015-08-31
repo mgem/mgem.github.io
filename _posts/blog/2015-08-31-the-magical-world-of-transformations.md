@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2. Transform! - The Magical World of Transformations"
+title:  "Week 2. Transform! - The Magical World of Transformations"
 date:   2015-08-31 08:00:00
 author: Yu Fei Xia
 categories: 
