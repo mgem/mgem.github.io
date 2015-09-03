@@ -10,7 +10,7 @@ tagline:             'McMaster Genetically Engineered Machine'
 description:         'A reserved <a href="http://mcmastergem.com" target="_blank">mGEM</a> webpage. Made by <a href="http://kushalpanchal.me" target="_blank">Kushal Panchal</a>.'
 url:                 http://mcmastergem.com
 baseurl:             ''
-paginate:            5
+paginate:            3
 
 # About/contact
 author:
