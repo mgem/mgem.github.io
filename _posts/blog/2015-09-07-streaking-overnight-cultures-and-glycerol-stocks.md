@@ -17,8 +17,8 @@ Hello again, and welcome back to [A Fledgling’s Guide to Cell Bio](http://mcma
 Now that you’ve completed your transformations, it’s time to make use of our newly modified E. coli cells! We’re going to do some *streaking*, make some *overnight cultures*, as well as some *glycerol stocks*! Ready? Set? Let's go!
 
 
-##0. Controls
-######Yaw, Pitch, & Roll
+###0. Controls
+***Yaw, Pitch, & Roll***
 
 In this section I would like to lightly touch upon the topic of controls. When doing a new experiment, it can be hard to know what the outcome will be. It can also be hard to know whether it failed. Therefore, for scientific rigour, we use positive and negative controls.
 
@@ -28,8 +28,8 @@ In this section I would like to lightly touch upon the topic of controls. When d
 
 Therefore, in all the procedures, assume that positive and negative controls have been performed. That's all for now, continue!
 
-##1. Streaking
-######No - not that kind of streaking. 
+###1. Streaking
+***No - not that kind of streaking. ***
 
 Presumably you've completed your transformations, as Fei Fei outlined [last week] (http://mcmastergem.com/blog/2015/08/31/the-magical-world-of-transformations/). Regardless of your procedure, you most likely have your cells now on some agar plates. The specks you see are the bacterial colonies - ideally, the ones with your desired plasmid now inside them. However, we want to work with single colonies instead of a single continuous batch. Therefore, we're going to 'dilute' the bacterial sample. Of course, this is synbio, so something like 'diluting a colony' isn't as simple as adding water to the sample! No, no - we're going to have to perform *streaking*. In general, we will take a tool to take out a speck from this original agar plate and place it onto a new agar plate, and then make streaks using this speck on this new agar plate.
 
@@ -69,8 +69,8 @@ Now, that the plates have been streaked, it's time to incubate them. Place the n
 
 And that concludes streaking! Once you have successfully streaked and incubated the plates, they should look similar to this:
 
-##2. Overnight Cultures
-######Nope - not talking about sleeper hit movies. 
+###2. Overnight Cultures
+***Nope - not talking about sleeper hit movies.***
 
 Now that we have isolated the cell colony with the plasmid we want, we need to create a huge number of clones those cells. To do this, we'll switch over from a solid phase into a liquid phase and create *overnight cultures*.
 
@@ -99,8 +99,8 @@ Below is an image showing an LB overnight culture tube that is full of bacteria,
 
 One last thing on overnight cultures: When using reliable samples (high efficiency, certified and ordered plasmids from a supplier), you can use slower speeds for the shaker. For samples that are less reliable to grow well (such as these new lab-transformed plasmids), faster shaker speeds are desirable. 
 
-##3. Glycerol Stocks
-######That's exactly how volatile the markets can be.
+###3. Glycerol Stocks
+***That's exactly how volatile the markets can be.***
 
 These culture tubes now contain a massive amount of bacteria and DNA, much of which we will use to extract our plasmid DNA from. However, things can go very badly in the future (experiments go wrong very easily in science) and we may lost our DNA. Therefore, instead of repeating all these steps from the beginning of Week 2, we'll simply make some bacterial backups. These backups are in the form of *glycerol stocks* that are kept for long-term, decade-long, storage. *Like they say - a stitch in time saves nine!*
 
@@ -113,7 +113,7 @@ Do this by obtaining special glycerol stock tubes. Ours have orange screw-top ca
 
 ![tubes](https://mnggraphics.files.wordpress.com/2015/09/img_3696.jpg){: .center-image .responsive-image }
 
-Using a large pipette tip, add 250 μL of dH<subscript>2</subscript>O (nuclease-free water) to the tube. Take a new large tip and cut a bit off its end. Glycerol is very viscous and will not be sucked up easily with only a small opening (it will, but it can take some time). Then add 250 μL of 100% glycerol to the tube. Close the tube and shake-invert the tube a few times to ensure homogeneous mixing. This will create 500μL of 50% glycerol in the stock tube.
+Using a large pipette tip, add 250 μL of dH<sub>2</sub>O (nuclease-free water) to the tube. Take a new large tip and cut a bit off its end. Glycerol is very viscous and will not be sucked up easily with only a small opening (it will, but it can take some time). Then add 250 μL of 100% glycerol to the tube. Close the tube and shake-invert the tube a few times to ensure homogeneous mixing. This will create 500μL of 50% glycerol in the stock tube.
 
 However, please note that glycerol can be a tricky substance to work with! Unlike water, which is happy to stay in the micropipette tip, glycerol is very impatient and will immediately begin to seep out of the pipette. So you must act quickly!
 
@@ -154,4 +154,4 @@ Wooaah that was a long post! Kudos if you read it all! If you skimmed over it, n
 		Store at -80°C
 
 
-###That’s all for now! This has been the introduction to A Fledgling’s Guide to Syn Bio. If you have any comments or questions you can email [me] (mailto:ngmc2@mcmaster.ca), [Fei Fei] (xiayf@mcmaster.ca), or post in the comment section below. See you next week!
+###That’s all for now! This has been the introduction to A Fledgling’s Guide to Syn Bio. If you have any comments or questions you can email [me](mailto:ngmc2@mcmaster.ca), [Fei Fei](xiayf@mcmaster.ca), or post in the comment section below. See you next week!
