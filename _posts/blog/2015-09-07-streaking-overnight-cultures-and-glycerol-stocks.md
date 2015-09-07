@@ -29,7 +29,7 @@ In this section I would like to lightly touch upon the topic of controls. When d
 Therefore, in all the procedures, assume that positive and negative controls have been performed. That's all for now, continue!
 
 ###1. Streaking
-***No - not that kind of streaking. ***
+***No - not that kind of streaking***
 
 Presumably you've completed your transformations, as Fei Fei outlined [last week] (http://mcmastergem.com/blog/2015/08/31/the-magical-world-of-transformations/). Regardless of your procedure, you most likely have your cells now on some agar plates. The specks you see are the bacterial colonies - ideally, the ones with your desired plasmid now inside them. However, we want to work with single colonies instead of a single continuous batch. Therefore, we're going to 'dilute' the bacterial sample. Of course, this is synbio, so something like 'diluting a colony' isn't as simple as adding water to the sample! No, no - we're going to have to perform *streaking*. In general, we will take a tool to take out a speck from this original agar plate and place it onto a new agar plate, and then make streaks using this speck on this new agar plate.
 
