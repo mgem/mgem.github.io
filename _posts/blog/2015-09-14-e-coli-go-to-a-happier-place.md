@@ -26,12 +26,14 @@ If you are opening a new kit, check all the solutions to see if any of them have
 Centrifuge again until you have a bigger pellet, and discard the supernatent again. This is just the beginning, but there are many, many more instances where the centrifuge will be used. Remember not to rush or become impatient, and always balance the centrifuge! Here is an example below:
 
 ![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12019968_1096402373718224_2812008222980656745_n.jpg?oh=93e6ce15996737b72626e466b7fad157&oe=566E7FF1){: .center-image .responsive-image }
-####Almost balanced…
+
+###Almost balanced…
 
 
 
 ![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xlf1/v/t1.0-9/11990693_1096402347051560_9029661625306976012_n.jpg?oh=6561fff517924c78dbed0baa4f3475b1&oe=569FB362){: .center-image .responsive-image }
-####Yes! Balanced!
+
+###Yes! Balanced!
 
 ...
 
