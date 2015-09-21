@@ -36,7 +36,7 @@ However, like I mentioned in the introduction, there is a twist to the digestion
 
 Let’s create a scenario where we have two samples of Miniprepped plasmid DNA - the promoter sequence pBAD/AraC and the gene sequence ho1 - and we plan to insert them both into a new plasmid with Kanamycin resistance to create an intermediate of our final (plasmid) design. We must first digest both genes out of their original plasmids, using restriction enzymes for two of the four sites on each plasmid. pBAD is the promoter, so we want it to be located upstream of the ho1 sequence; therefore we will cut using the **E** restriction enzyme and the **S** restriction enzyme. ho1 will be cut at the **X** and **P** sites, allowing it to be attached after the promoter. Again, the reason for this will be explained in further detail in next week’s post on ligation.
 
-![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12036707_1101992556492539_8500390147664457540_n.jpg?oh=56bebcf72d7df9117e3455cd4eecbbe3&oe=565DCC11)
+![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12036707_1101992556492539_8500390147664457540_n.jpg?oh=56bebcf72d7df9117e3455cd4eecbbe3&oe=565DCC11){: .center-image .responsive-image }
 *The promoter pBAD*
 
 ![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12011356_1101992589825869_8658171084529371137_n.jpg?oh=083fcb0be3db7940ee805eda8b6c7c13&oe=56971B7E){: .center-image .responsive-image }
@@ -53,7 +53,7 @@ Depending on what protocol you use and where you buy your buffers, the ratios of
 
 After you have added everything to the sample tubes, centrifuge to collect everything at the bottom, and incubate the samples at 37°C for 30 mins. Then, *heat kill* the enzymes in your sample at 80°C for 20 mins (for a review of heat kill vs heat shock, revisit [Transformations](http://mcmastergem.com/blog/2015/08/31/the-magical-world-of-transformations/)). This denatures the digestion enzymes so that they are no longer active and will not interfere in future procedures involving this sample. Don’t worry about the DNA, as it is fairly stable and only begins to denature at a higher temperature.
 
-![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/12042719_1101992569825871_966801383235269487_n.jpg?oh=a031dba2fca855ff15224e85df057a87&oe=56935A62)
+![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/12042719_1101992569825871_966801383235269487_n.jpg?oh=a031dba2fca855ff15224e85df057a87&oe=56935A62){: .center-image .responsive-image }
 
 (Image only for demonstrative purposes. Always use gloves as PPE when working in the lab!)
 
