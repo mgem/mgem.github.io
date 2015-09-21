@@ -16,8 +16,8 @@ Surprise!! I’m back again, two weeks in a row! Usually this would be Max's pos
 
 The restriction digest, commonly known as digestion, is the process in which a DNA strand or plasmid is cut at specific DNA sequences, called restriction sites. This happens through hydrolysis, which is probably why the name of the process is digestion - the backbone is ‘digested’ at the restriction site into smaller pieces. We use restriction enzymes, which recognize the specific restriction sites on DNA and cut at that location. Restriction enzymes originated from bacteria, as a defense mechanism for destroying viral DNA.
 
-![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10368188_1101992526492542_2817754395985373711_n.jpg?oh=b807c88fe6d9e66f1adc3da4709bd68d&oe=569F04B6)
-[Source](http://www.scq.ubc.ca/restriction-endonucleases-molecular-scissors-for-specifically-cutting-dna/){: .center-image .responsive-image }
+![](https://scontent-lga1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10368188_1101992526492542_2817754395985373711_n.jpg?oh=b807c88fe6d9e66f1adc3da4709bd68d&oe=569F04B6){: .center-image .responsive-image }
+[Source](http://www.scq.ubc.ca/restriction-endonucleases-molecular-scissors-for-specifically-cutting-dna/)
 
 In synthetic biology, digestion is used in cloning to isolate genes of interest from plasmids, so that we can work with them to create recombinant DNA - plasmids with gene sequences and functions that we design. This can then be introduced to our bacteria, which will display the desired traits.
 
@@ -32,6 +32,7 @@ However, like I mentioned in the introduction, there is a twist to the digestion
 <br><br>
 
 ##The procedure (finally!):
+
 
 Let’s create a scenario where we have two samples of Miniprepped plasmid DNA - the promoter sequence pBAD/AraC and the gene sequence ho1 - and we plan to insert them both into a new plasmid with Kanamycin resistance to create an intermediate of our final (plasmid) design. We must first digest both genes out of their original plasmids, using restriction enzymes for two of the four sites on each plasmid. pBAD is the promoter, so we want it to be located upstream of the ho1 sequence; therefore we will cut using the **E** restriction enzyme and the **S** restriction enzyme. ho1 will be cut at the **X** and **P** sites, allowing it to be attached after the promoter. Again, the reason for this will be explained in further detail in next week’s post on ligation.
 
