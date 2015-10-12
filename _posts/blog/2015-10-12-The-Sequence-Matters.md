@@ -49,9 +49,9 @@ When you receive unexpected results, check your primers for sequence errors (esp
 
 
 And that’s all for this week! Relatively short post, I know! But I figured you wanted to quickly get back to your turkey dinner - it is Thanksgiving after all! So have a great Thanksgiving, and know that this year one of the things I’m thankful for is being able to create this blog through mGEM and meet all of you! See you guys next week!
-----------
-**Sources:**
-----------
-1. iBiology. Jonathan Weissman (UCSF/HHMI): DNA Sequencing [Internet]. [cited 2015 Oct 10]. Available from: (https://www.youtube.com/watch?v=8n2LvJ-m0n0)[https://www.youtube.com/watch?v=8n2LvJ-m0n0]
 
-2. Dillon C. Troubleshooting DNA Sequencing: Evaluating Sanger DNA Sequencing Chromatogram Data | Amplicon Express [Internet]. Ampliconexpress.com. 2014 [cited 2015 Oct 10]. Available from: (http://ampliconexpress.com/troubleshooting-dna-sequencing-evaluating-sanger-dna-sequencing-chromatogram-data/)[http://ampliconexpress.com/troubleshooting-dna-sequencing-evaluating-sanger-dna-sequencing-chromatogram-data/]
+**Sources:**
+
+1. iBiology. Jonathan Weissman (UCSF/HHMI): DNA Sequencing [Internet]. [cited 2015 Oct 10]. Available from: [https://www.youtube.com/watch?v=8n2LvJ-m0n0](https://www.youtube.com/watch?v=8n2LvJ-m0n0)
+
+2. Dillon C. Troubleshooting DNA Sequencing: Evaluating Sanger DNA Sequencing Chromatogram Data | Amplicon Express [Internet]. Ampliconexpress.com. 2014 [cited 2015 Oct 10]. Available from: [http://ampliconexpress.com/troubleshooting-dna-sequencing-evaluating-sanger-dna-sequencing-chromatogram-data/](http://ampliconexpress.com/troubleshooting-dna-sequencing-evaluating-sanger-dna-sequencing-chromatogram-data/)
