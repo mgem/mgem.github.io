@@ -6,8 +6,8 @@ author: Maxwell Ng
 categories: 
 - blog
 
-img: Week-9-header.png
-thumb: Week-9-thumb.png
+img: week-9-header.png
+thumb: week-9-thumb.png
 ---
 
 #Week 9: Phase 1, Complete!
