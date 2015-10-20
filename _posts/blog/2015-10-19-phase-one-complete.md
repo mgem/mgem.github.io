@@ -25,6 +25,7 @@ For now, read on as we conclude this first chapter and see to the next!
 ![diagram](http://mcmastergem.com/img/blog/post02cycle.png){: .center-image .responsive-image }	
 
 ##1. Review of Phase 1
+
 ######A blast through the past
 If you've missed any of the previous posts or just want to check them out again, here they are in order:
 
@@ -47,6 +48,7 @@ If you've missed any of the previous posts or just want to check them out again,
 
 
 ##2. Onto Phase 2
+
 ######Modern Science
 
 Before we begin, please watch this mandatory initiation video that all synbio practitioners must know (there will be a quiz at the end): [**www.youtube.com/watch?v=x5yPkxCLads**](https://www.youtube.com/watch?v=x5yPkxCLads)
@@ -70,7 +72,7 @@ Clearly, PCR has had a large impact on the scientific community. As we go throug
 2. Why are primers important?
 3. Has the video inspired you to take on the arts along with the sciences to broaden your understanding and appreciation of the world?
 
-##That's all for this week! Come back next week when we begin to design our PCR primers and go over the molecular science of PCR!
+**That's all for this week! Come back next week when we begin to design our PCR primers and go over the molecular science of PCR!**
 
 ######Pop-Quiz Answers: 1. Only holds and changes the tube's temperature - no direct biological modifications. 2. They allow the *Taq* polymerase to being elongation, as well restricts the cloned DNA to a specific gene sequence (instead of cloning the entire plasmid) 3. Well, that's for you to decide!
 
