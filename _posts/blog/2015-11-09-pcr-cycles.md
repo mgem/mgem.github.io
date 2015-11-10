@@ -12,6 +12,7 @@ thumb: Week-11-thumb.png
 
 
 #Week 11: PCR Cycles
+
 ######The process that never ends...
 
 Welcome back to a [A Fledgling’s Guide to Syn Bio](http://mcmastergem.com/blog/)! We’re all about PCR right now, so let’s jump right into it! Last week we learned about primers, so if you’re unfamiliar with those, check out last week’s post [here](http://mcmastergem.com/blog/2015/11/02/a-primer-for-primer-design/)! If you want an even more general overview of what PCR is, we have that too - [here](http://mcmastergem.com/blog/2015/10/19/phase-one-complete/)! Now we will discuss how to go about calculating the settings on your PCR cycle.
@@ -21,6 +22,7 @@ So how does PCR make copies? Well, it’s actually analogous to DNA replication.
 Why does it have to be a cycler? Well, every cycle of the PCR process will double the amount of gene DNA (simplified and ideally). Therefore, to get a large enough sample and at a high enough purity (to outweigh the initial DNA added), we need to repeat the PCR cycle several times.
 
 ######*A Side of Physics! #1*
+
 ######*Energy can take many forms - chemical, kinetic, thermal, etc. Here, as we will soon learn, we are interested in raising the kinetic energy of the molecules in our system (everything inside the PCR tube). To do this, we can increase the thermal energy of the system. This is because, in this situation, the thermal energy is directly connected to the kinetic energy of the system. Essentially, the hotter the system, the faster things move. Furthermore, we can represent the amount of thermal (or thus, kinetic) energy in the system by a measure of its temperature, a measurement which indicates the average thermal or kinetic energy of the molecules within it.*
 
 A crucial concept in PCR is the that its process happens in steps, and in practice we can break it down into three broad sections: 1. Initialization, 2. the Cycle, and 3. Finalization. Let’s take a look at each of these.
@@ -56,6 +58,7 @@ During this step, the primers attach or ‘anneal’ to the separated DNA strand
 Why? Well, the temperature value depends on the gene’s nucleotide sequence. Specifically, as we learned last week, the C-G bonds are stronger than A-T bonds, and this will change the amount of kinetic energy we need to add to the system as a results of needing to break these bonds.
 
 ######*A Side of Physics! #2*
+
 ######*The annealing temperature is a careful balance between too cold and too hot. Too low a temperature, and the primers will be stable enough to bind to DNA sequences on the gene strands that may not be exactly those it was intended for, thereby producing impure yields. Too high a temperature, and the primers won’t be able to bind easily to the DNA sequences on the gene strands, thereby significantly reducing the PCR yield.*
 
 So how do we actually go about calculating this? Well, we could do a lot of math.
@@ -80,6 +83,7 @@ With the PCR process finally complete, after the many cycles, it can now be puri
 And that finalizes everything for the basic PCR approach!
 
 ##But wait, that’s not all!
+
 ######Oh yes: overhangs.
 Things can get complex as we saw last week with overhangs! So what does this mean? Well, during the first few cycles, only part of the primer will anneal, as the overhangs have no complementary bases on the original DNA base strands. However, after several cycles, there will be more and more DNA strands that were essentially ‘grown’ from these primers with overhangs (prefixes or suffixes), and will therefore contain the overhangs. This allows new DNA strands to be synthesized with the prefixes or suffixes attached!
 
