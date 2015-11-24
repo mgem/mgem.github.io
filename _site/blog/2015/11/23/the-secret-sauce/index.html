@@ -28,17 +28,17 @@
     <meta content="609039549219229" property="fb:app_id">
     <meta content="mGEM" property="og:site_name">
     
-      <meta content="6. Gels - Proper Experimental Procedure or Just Confusing? " property="og:title">
+      <meta content="PCR Cycles" property="og:title">
     
     
       <meta content="article" property="og:type">
     
     
     
-      <meta content="http://mcmastergem.com/blog/2015/09/28/gelception/" property="og:url">
+      <meta content="http://mcmastergem.com/blog/2015/11/23/the-secret-sauce/" property="og:url">
     
     
-      <meta content="http://mcmastergem.com/img/post07.png" property="og:image">
+      <meta content="http://mcmastergem.com/img/Week-12-header.png" property="og:image">
     
     
       
@@ -55,14 +55,14 @@
     <meta name="twitter:site" content="@iGEM_McMaster">
     <meta name="twitter:creator" content="@iGEM_McMaster">
     
-      <meta name="twitter:title" content="6. Gels - Proper Experimental Procedure or Just Confusing? ">
+      <meta name="twitter:title" content="PCR Cycles">
     
     
-      <meta name="twitter:url" content="http://mcmastergem.com/blog/2015/09/28/gelception/">
+      <meta name="twitter:url" content="http://mcmastergem.com/blog/2015/11/23/the-secret-sauce/">
     
     
     
-      <meta name="twitter:image:src" content="http://mcmastergem.com/img/post07.png">
+      <meta name="twitter:image:src" content="http://mcmastergem.com/img/Week-12-header.png">
     
     
     <!-- MetaData Wrap -->
@@ -183,7 +183,7 @@
             <div id="blue">
     <div class="container">
         <div class="row">
-            <h3>6. Gels - Proper Experimental Procedure or Just Confusing? </h3>
+            <h3>PCR Cycles</h3>
         </div><!-- /row -->
     </div> <!-- /container -->
 </div><!-- /blue -->
@@ -193,75 +193,63 @@
         <! -- SINGLE POST -->
         <div class="col-lg-8">
             <! -- Blog Post  -->
-            <p><img class="img-responsive" src="/img/blog/post07.png"></p>
-            <a href="/blog/2015/09/28/gelception/"><h3 class="ctitle">6. Gels - Proper Experimental Procedure or Just Confusing? </h3></a>
-            <p><csmall>Sep 28, 2015. | By: Yu Fei Xia</csmall></p>
+            <p><img class="img-responsive" src="/img/blog/Week-12-header.png"></p>
+            <a href="/blog/2015/11/23/the-secret-sauce/"><h3 class="ctitle">PCR Cycles</h3></a>
+            <p><csmall>Nov 23, 2015. | By: Maxwell Ng</csmall></p>
               
-            <h1 id="week-6-gels---proper-experimental-design-or-just-confusing">Week 6: Gels - Proper Experimental Design, or Just Confusing?</h1>
+            <h1 id="week-12-pcr-mix---the-secret-sauce">Week 12: PCR Mix - The Secret Sauce</h1>
 
-<p>Alright, so I know I said last week that this week’s post would be on ligation, but it seems that (being an mGEM fledgling, haha) I had forgotten a very important step that comes after digestion. After every experimental procedure, you must prove the validity of your results, and although we are designing a plasmid instead of testing a hypothesis, it is still important to confirm our success before moving onto the next step and potentially wasting resources (again, think about that hard-gotten funding!). Just as we would not declare our final plasmid a success without sending it in for sequencing first, we would not move onto ligation without first checking to see if our plasmids digested properly.</p>
+<h6 id="note-do-not-injest">Note: Do Not Injest!</h6>
 
-<p>This basically involves a battery of gel tests on our digested DNA samples. The logic is this: first run a diagnostic gel (electrophoresis) on the sample and compare the bands to the expected sizes of the cut pieces (especially the expected size of the cut DNA of interest). Then, if you have the expected lengths, run <em>another</em> gel, but this time with all of your DNA sample in multiple wells to harvest the DNA of interest through gel extraction. Then after that, you run the diagnostic gel (again) to check the gel you <em>just</em> did confirm that you have indeed extracted the DNA and the procedure was successful. Is this gelception or what?</p>
+<p>Surprise! While usually Fei Fei takes the even weeks, I’m going to be here to take you through the rest of <a href="https://www.youtube.com/watch?v=x5yPkxCLads">PCR</a> (this week and next week)! </p>
 
-<p>Therefore, this week’s post will be in 2 short sections; how to run a normal diagnostic gel, and how to perform a gel extraction! :)</p>
+<p><a href="http://mcmastergem.com/blog/2015/11/09/pcr-cycles/">Last week</a> we talked about programming and calculating your PCR cycles. We went through initialization, denaturing, extension, annealing, and storage. Now we’re going to put it into practice!</p>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xlt1/v/t1.0-9/12074558_1106250602733401_5151321027666941862_n.jpg?oh=4a46f39cd61bf5502e4d0696348bfcb7&amp;oe=568F5A55" alt="" class="center-image responsive-image" /></p>
+<h2 id="choose-the-ingredients">1. Choose the ingredients</h2>
 
-<h2 id="gel-electrophoresis">Gel Electrophoresis:</h2>
+<p>As with any good recipe, ingredients must be thought of well ahead of time. PCR is no different, although we recommend not actually eating of these materials (although there <a href="http://www.thekitchn.com/phd-in-delicious-the-science-c-108963">ARE sciency foods that you and your friends can enjoy</a> - yum!).</p>
 
-<p>You’ve probably heard about this procedure since high school, and I thought I was basically all set on this one the first time it was mentioned. You micropipette the DNA in the wells with some fancy dye, then you wait for the dye to reach the bottom of the plate, then you take it out and analyze it and you’re done! Easy right? Except, turns out I also needed to make the agarose gel.</p>
+<p>For mGEM, we used a Platinum PCR SuperMix High Fidelity (Thermo Fischer). Aside from the template DNA and your primers, these PCR mixes contain everything necessary for the chemical reaction of PCR, including <em>Taq</em> polymerase, buffer, and dNTPs (dNTP = deoxy-nucleoside triphosphate, which constitute the building blocks for the DNA nucleotides). Although you can make <a href="https://www.neb.com/protocols/1/01/01/protocol-for-a-routine-taq-pcr-reaction">your own PCR mix from a recipe</a> for ~$200 cheaper, it is recommended to use a PCR mix. Manufactured mixes have been tested, may have high-fidelity polymerases (more accurate DNA cloning), and are less likely to cause you problems and delays for troubleshooting. </p>
 
-<p><strong>You:</strong> <em>WHaT?! So they don’t just magically appear as part of the gel electrophoresis machine?</em></p>
+<p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12239218_10208091002616642_4045265327528594678_o.jpg" alt="supermix" class="center-image responsive-image" /></p>
 
-<p><strong>Me:</strong> <em>No worries, this post will save you that moment of embarrassment! Read on dear reader, read on :)</em></p>
+<h2 id="blending-the-solution">2. Blending the solution</h2>
 
-<h2 id="making-agar-stock-for-gel">Making agar stock for gel:</h2>
+<p><strong>Before we start, a reminder: Keep the solutions on ice! Enzymes should be thawed minimally, as too many freeze-thaw cycles can reduce their efficiency.</strong></p>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xlt1/v/t1.0-9/12003984_1106250656066729_2205004081715351447_n.jpg?oh=c15742a1c326ba905842eaf690e6aa85&amp;oe=565DBD1D" alt="" class="center-image responsive-image" /></p>
+<p>Now, to start, we need to attain the correct ingredient concentrations. The goal is to have primer concentrations between 100nM-500nM concentrations, and between 1ng-200ng of template DNA. To do this we diluted some of our samples, as follows:</p>
 
-<p>Depending on the size of the DNA you expect to find, you may need to use agarose solutions of different concentration. However, you will most likely be preparing a 1% agarose solution (used for DNA of 500bp-10kbp). You will need TAE or TBE buffer (the 99%), and of course agarose powder (the 1%). You will also need to add 0.1% red safe, or any other DNA dye that your lab uses. For example, if you are making 40mL of agarose solution, you will need 40mL of 0.5x TBE, 0.4g agar, and 2uL red safe. First add the buffer and agarose, and microwave for about 30sec until all white flakes are gone and the solution is slightly viscous but clear. handle the flask with care, as it will be very hot! Let it cool for a few minutes (but not too long or it will solidify!) and add the redsafe. Mix well. Pour the agarose solution into the gel plate (make sure the comb is placed properly beforehand!), and let it sit for 10-20 minutes (they should be solidified. Add a bit of TBE buffer on top of the gels and wait another 15 minutes - this prevents the wells from ripping when you pull the comb out. Pull out the comb, and set the well plate in the apparatus and fill it with TBE. Wait another 10 minutes, and it’s ready to be used!</p>
+<pre><code>Dilute primers 10x (1µL primer + 9µL nuclease-free water)
+Dilute DNA 20x (1µL DNA + 19µL nuclease-free water)
+</code></pre>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/12047193_1106250649400063_4226757238111732143_n.jpg?oh=ceb663cdcd8f9ba28ed21e2f801d2534&amp;oe=568E0E6A" alt="" class="center-image responsive-image" /></p>
+<p>We diluted our samples because too high a concentration will interfere with the PCR reaction, making it less efficient and a lower yield. Now, using the PCR SuperMix, we used:</p>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12036919_1106250546066740_5405480697400046571_n.jpg?oh=0c89b51340dc79347c3359cf4930f092&amp;oe=569800CD" alt="" class="center-image responsive-image" />
-FYI: these are the combs for the gel plates!</p>
+<pre><code>2.0µL		Template DNA
+2.5µL		Forward primer
+2.5µL		Reverse primer
+43µL		PCR SuperMix
+All into a PCR tube
+</code></pre>
 
-<p>The DNA samples for each well will be a combination of DNA, loading dye, and water, depending on the dye. Remember to centrifuge the sample tubes before loading them to ensre everything is gathered at the bottom! The loading dye is different from redsafe because it is a visual marker of when to stop the gel (it runs slightly faster than the smallest pieces of DNA), while the redsafe binds to the actual DNA and allow you to see and analyze their locations under UV light. Finally, unlike gel extraction, the goal of a diagnostic gel is just to confirm the right DNA pieces, so you will only be using a small amount of your digested DNA.</p>
+<p>This reaction is for a 50µL PCR reaction, and for our specific producer (many actually add nuclease-free water to the mix as well, since their PCR Mix is more concentrated). There are PCR protocols attached to your PCR mix as well as online (in case you lose your papers, though you should keep a copy safe in your lab notebook).</p>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/12049282_1106250539400074_8615499280743827553_n.jpg?oh=137636743cde015543ebd4ae70e47e59&amp;oe=56944552" alt="" class="center-image responsive-image" /></p>
+<p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12247905_10208091002656643_1373393575106923614_o.jpg" alt="tube" class="center-image responsive-image" /></p>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12020035_1106250642733397_5556029884740419710_n.jpg?oh=c9988412deb64c4505289aa66f1493b9&amp;oe=56A31F8B" alt="" class="center-image responsive-image" /></p>
+<h2 id="place-it-in-the-oven">3. Place it in the oven</h2>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12027709_1106250536066741_2785200796776596424_n.jpg?oh=6cedaf2decda842b51e258fb9997ba7c&amp;oe=56A8B59B" alt="" class="center-image responsive-image" /></p>
+<p>Now you can put your samples back in the 4°C freezer for storage, and place your PCR tube into the thermal cycler. Following <a href="http://mcmastergem.com/blog/2015/11/09/pcr-cycles/">last week’s protocols</a>, for either standard or overhang PCR, we can input our necessary temperatures, durations, and cycles.</p>
 
-<p>After running the gel and seeing that the loading dye has arrived at the bottom of the gel, turn off the machine, remove the gel, and place it into a visualizer to get an image of your DNA bands. Now you can analyze the band lengths relative to the DNA ladder and see if your digestion was successful.</p>
+<p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12303928_10208091002576641_8340500722028334979_o.jpg" alt="machine" class="center-image responsive-image" /></p>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/12038223_1106250646066730_7787393017221325660_n.jpg?oh=dbc761898a3a4f0704bcd64a4c77502b&amp;oe=56A65967" alt="" class="center-image responsive-image" /></p>
+<h6 id="example-rfp-backbone">Example: RFP Backbone</h6>
 
-<p>Here is an example of how to document your results and compare your DNA to the expected lengths. The DNA ladder is usually the first or last well, and can be ordered from many places:</p>
+<h6 id="linearized-backbones-are-essential-for-the-plasmids-we-create-they-contain-the-antibacterial-resistance-required-to-select-those-bacteria-that-actually-have-our-desired-plasmid-for-example-we-want-a-linear-backbone-that-contains-chloramphenicol-resistance-the-red-fluorescent-protein-rfp-in-the-backbone-gives-us-a-visual-clue-as-well-for-when-bacteria-are-successfully-proliferating-with-this-plasmid-using-a-rfp-plasmid-that-also-has-this-resistance-we-can-amplify-this-gene-directly-through-pcr-therefore-we-follow-the-previous-protocols-to-form-our-solution-and-our-cycles-a-note-that-might-not-have-come-out-clearly-form-last-week-if-the-template-dna-is-25kb-long-we-will-use-25-minutes-for-extension-time-this-has-two-purposes-i-it-provides-enough-time-for-the-polymerase-to-add-nucleotides-for-the-entire-length-of-the-gene-of-interest-from-template-dna-but-ii-it-also-keeps-the-extension-period-short-enough-so-that-we-dont-create-extremely-long-strands-of-dna-past-the-gene-of-interest-for-no-purposeful-reason-and-this-wastes-time-resources-and-can-make-the-pcr-reaction-less-efficient">Linearized backbones are essential for the plasmids we create. They contain the antibacterial resistance required to select those bacteria that actually have our desired plasmid. For example, we want a linear backbone that contains Chloramphenicol resistance. The red-fluorescent protein (RFP) in the backbone gives us a visual clue as well for when bacteria are successfully proliferating with this plasmid. Using a RFP plasmid that also has this resistance, we can amplify this gene directly through PCR. Therefore, we follow the previous protocols to form our solution and our cycles. A note that might not have come out clearly form last week: If the template DNA is 2.5kb long, we will use 2.5 minutes for extension time. This has two purposes: (i) it provides enough time for the polymerase to add nucleotides for the entire length of the gene of interest (from template DNA), but (ii) it also keeps the extension period short enough so that we don’t create extremely long strands of DNA past the gene of interest for no purposeful reason, and this wastes time, resources, and can make the PCR reaction less efficient.</h6>
 
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12079672_1106250542733407_4090914736747829639_n.jpg?oh=05950792a4537c5fbf80af56537612df&amp;oe=568A2135" alt="" class="center-image responsive-image" /></p>
+<p><img src="https://mnggraphics.files.wordpress.com/2015/11/screen-shot-2015-11-09-at-11-14-37-pm.png" alt="diagram" class="center-image responsive-image" /></p>
 
-<h2 id="gel-extraction">Gel Extraction:</h2>
-
-<p>I found the gel extraction scary at the beginning, but now it’s one of my favourite procedures! You prepare a gel just like in a diagnostic gel, but this time you will divide all of your DNA sample to fit in multiple wells and harvest it by ‘extraction’ - literally cutting the piece of the correct size out of the gel with a razor! Cool right? The point of this procedure is to make the ligation more ‘clean’ and efficient. Right now, the digested DNA of interest and the remaining plasmid backbone have the same restriction site. If you just perform ligation with these impure samples, you will get many inviable plasmids of 2 backbone pieces, and no DNA of interest. Ligation is already a process of luck anyway, why give yourself slim chances when you can clean up a bit beforehand?</p>
-
-<p>So. First you run the gel, then after the loading dye is sufficiently low, turn off the gel electrophoresis machine and move the gel onto a UV transilluminator (basically a giant UV light glass tray. Be very careful, and wear protective equipment, since you will be working with a razor and UV light! Turn on the transilluminator so you can see all the bands, and using the razor, carefully cut around the band you have identified as your DNA of interest. Be quick, but very precise - you want your piece of gel to be LESS than 0.200g (or the specified weight in your lab’s gel extraction kit), but you also don’t want to leave the UV on for too long since it will damage the DNA, and you will get sunburn! This was why I found the procedure to be a bit scary at first - the speed + efficiency aspect scared me a bit. But now I just think it’s really fun, and looks really cool!</p>
-
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/12063871_1106250652733396_4815600600180802085_n.jpg?oh=83674531b680790c6e734a6f3bbb8477&amp;oe=569B6772" alt="" class="center-image responsive-image" /></p>
-
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12075017_1106250549400073_5469033050548064492_n.jpg?oh=5f0fd199dbf562f3a56f50794a47db1d&amp;oe=568F9E1C" alt="" class="center-image responsive-image" /></p>
-
-<p>Anyway, after you have cut out your DNA band, place the piece of gel in a sample tube and weigh it to ensure it is under 0.200g. If it is over, you will have to double the recipe for that sample. Assuming that it is the correct weight of 0.200g or lower, start following the procedure provided in your gel purification kit for purifying extracted gels. This kit and its protocol will be different depending on where you order it from. Here’s a short summary (and a bit of a generalization), just to give you an idea:</p>
-
-<p>Add solubilization buffer (part of the kit) to your gel sample, and incubate it at 50degrees C for 10 minutes, inverting the sample tube every 3 minutes or so to mix properly. After, pipette the sample into a spin-column-collection-tube, and repeat steps of adding wash buffer, centrifuging, and discarding flow-through a few times. Then centrifuge without adding wash buffer to ensure the spin column is dry, switch out the collection tube for a sample tube, and centrifuge after adding an elution buffer (and incubating for about 1 minute) to get your purified DNA. It certainly feels like I rushed through this part, but it is very similar to the Mini-prep post (link), which you can revisit to refresh your knowledge of the concepts behind all the washing and the centrifuging and the fancy spin column tubes.</p>
-
-<p><img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12047138_1106250532733408_6827001251492973605_n.jpg?oh=833327f86a8749a213869ea5afebf358&amp;oe=56977BC0" alt="" class="center-image responsive-image" /></p>
-
-<p>So there you have it, the procedures for running diagnostic gels and gel extractions on your digested DNA. What do you think, are all these gels worth it, or would you rather just try your luck and go straight to ligation? Either way, performing verifications on your experiment results are the right thing to do as a scientist, so sometimes you just have to ignore that impatience and do the right thing. Besides, who would want to miss the fun of gel extractions? :) </p>
-
-<h3 id="as-always-see-you-next-week-and-look-forward-to-maxs-comeback-as-mgems-fledgling-blogger">As always, see you next week, and look forward to Max’s comeback as mGEM’s fledgling blogger!</h3>
-
+<h4 id="thats-all-for-this-week">That’s all for this week!</h4>
+<p>Come back next week when we finalize the PCR procedure! If you have a question or comment, leave us a message below! We’ll see you next week!</p>
 
             <hr>
             <div class="container">
@@ -274,7 +262,7 @@ FYI: these are the combs for the gel plates!</p>
        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
        <!-- Facebook -->
-       <div class="fb-like" data-href="http://mcmastergem.com/blog/2015/09/28/gelception/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="position: relative; top: -5px; left: 2px;"></div>
+       <div class="fb-like" data-href="http://mcmastergem.com/blog/2015/11/23/the-secret-sauce/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="position: relative; top: -5px; left: 2px;"></div>
        <div id="fb-root"></div>
        <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
