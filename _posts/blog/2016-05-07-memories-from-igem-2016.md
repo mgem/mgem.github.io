@@ -6,8 +6,8 @@ author: Fei Fei, Max, Karanbir, Michael
 categories: 
 - blog
 
-img: may-7-2016-header.png
-thumb: may-7-2016-thumb.jpg
+img: 2016-05-07-header.jpg
+thumb: 2016-05-07-thumb.jpg
 ---
 
 
