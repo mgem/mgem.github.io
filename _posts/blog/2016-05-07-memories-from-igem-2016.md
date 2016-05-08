@@ -59,4 +59,4 @@ The Giant Jamboree is an international gathering of representatives from undergr
 
 ![Giant Jamboree ensemble](https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/13152819_10206253366756415_1120214806_n.png?oh=c54493f770b734cb497755b2c1db13fb&oe=57312A7D){: .center-image .responsive-image }
 
-All photos retrieved from: [](https://www.flickr.com/photos/igemhq/sets/72157659478301262/)
+All photos retrieved from: [https://www.flickr.com/photos/igemhq/sets/72157659478301262/](https://www.flickr.com/photos/igemhq/sets/72157659478301262/)
