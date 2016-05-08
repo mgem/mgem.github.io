@@ -197,59 +197,61 @@
             <a href="/blog/2015/11/23/the-secret-sauce/"><h3 class="ctitle">PCR Cycles</h3></a>
             <p><csmall>Nov 23, 2015. | By: Maxwell Ng</csmall></p>
               
-            <h1 id="week-12-pcr-mix---the-secret-sauce">Week 12: PCR Mix - The Secret Sauce</h1>
+            <p>#Week 12: PCR Mix - The Secret Sauce</p>
 
-<h6 id="note-do-not-injest">Note: Do Not Injest!</h6>
+<p>######Note: Do Not Injest!</p>
 
-<p>Surprise! While usually Fei Fei takes the even weeks, I’m going to be here to take you through the rest of <a href="https://www.youtube.com/watch?v=x5yPkxCLads">PCR</a> (this week and next week)! </p>
+<p>Surprise! While usually Fei Fei takes the even weeks, I’m going to be here to take you through the rest of <a href="https://www.youtube.com/watch?v=x5yPkxCLads">PCR</a> (this week and next week)!</p>
 
 <p><a href="http://mcmastergem.com/blog/2015/11/09/pcr-cycles/">Last week</a> we talked about programming and calculating your PCR cycles. We went through initialization, denaturing, extension, annealing, and storage. Now we’re going to put it into practice!</p>
 
-<h2 id="choose-the-ingredients">1. Choose the ingredients</h2>
+<p>##1. Choose the ingredients</p>
 
 <p>As with any good recipe, ingredients must be thought of well ahead of time. PCR is no different, although we recommend not actually eating of these materials (although there <a href="http://www.thekitchn.com/phd-in-delicious-the-science-c-108963">ARE sciency foods that you and your friends can enjoy</a> - yum!).</p>
 
-<p>For mGEM, we used a Platinum PCR SuperMix High Fidelity (Thermo Fischer). Aside from the template DNA and your primers, these PCR mixes contain everything necessary for the chemical reaction of PCR, including <em>Taq</em> polymerase, buffer, and dNTPs (dNTP = deoxy-nucleoside triphosphate, which constitute the building blocks for the DNA nucleotides). Although you can make <a href="https://www.neb.com/protocols/1/01/01/protocol-for-a-routine-taq-pcr-reaction">your own PCR mix from a recipe</a> for ~$200 cheaper, it is recommended to use a PCR mix. Manufactured mixes have been tested, may have high-fidelity polymerases (more accurate DNA cloning), and are less likely to cause you problems and delays for troubleshooting. </p>
+<p>For mGEM, we used a Platinum PCR SuperMix High Fidelity (Thermo Fischer). Aside from the template DNA and your primers, these PCR mixes contain everything necessary for the chemical reaction of PCR, including <em>Taq</em> polymerase, buffer, and dNTPs (dNTP = deoxy-nucleoside triphosphate, which constitute the building blocks for the DNA nucleotides). Although you can make <a href="https://www.neb.com/protocols/1/01/01/protocol-for-a-routine-taq-pcr-reaction">your own PCR mix from a recipe</a> for ~$200 cheaper, it is recommended to use a PCR mix. Manufactured mixes have been tested, may have high-fidelity polymerases (more accurate DNA cloning), and are less likely to cause you problems and delays for troubleshooting.</p>
 
 <p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12239218_10208091002616642_4045265327528594678_o.jpg" alt="supermix" class="center-image responsive-image" /></p>
 
-<h2 id="blending-the-solution">2. Blending the solution</h2>
+<p>##2. Blending the solution</p>
 
 <p><strong>Before we start, a reminder: Keep the solutions on ice! Enzymes should be thawed minimally, as too many freeze-thaw cycles can reduce their efficiency.</strong></p>
 
 <p>Now, to start, we need to attain the correct ingredient concentrations. The goal is to have primer concentrations between 100nM-500nM concentrations, and between 1ng-200ng of template DNA. To do this we diluted some of our samples, as follows:</p>
 
-<pre><code>Dilute primers 10x (1µL primer + 9µL nuclease-free water)
+<div class="highlighter-rouge"><pre class="highlight"><code>Dilute primers 10x (1µL primer + 9µL nuclease-free water)
 Dilute DNA 20x (1µL DNA + 19µL nuclease-free water)
 </code></pre>
+</div>
 
 <p>We diluted our samples because too high a concentration will interfere with the PCR reaction, making it less efficient and a lower yield. Now, using the PCR SuperMix, we used:</p>
 
-<pre><code>2.0µL		Template DNA
+<div class="highlighter-rouge"><pre class="highlight"><code>2.0µL		Template DNA
 2.5µL		Forward primer
 2.5µL		Reverse primer
 43µL		PCR SuperMix
 All into a PCR tube
 </code></pre>
+</div>
 
 <p>This reaction is for a 50µL PCR reaction, and for our specific producer (many actually add nuclease-free water to the mix as well, since their PCR Mix is more concentrated). There are PCR protocols attached to your PCR mix as well as online (in case you lose your papers, though you should keep a copy safe in your lab notebook).</p>
 
 <p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/12247905_10208091002656643_1373393575106923614_o.jpg" alt="tube" class="center-image responsive-image" /></p>
 
-<h2 id="place-it-in-the-oven">3. Place it in the oven</h2>
+<p>##3. Place it in the oven</p>
 
 <p>Now you can put your samples back in the 4°C freezer for storage, and place your PCR tube into the thermal cycler. Following <a href="http://mcmastergem.com/blog/2015/11/09/pcr-cycles/">last week’s protocols</a>, for either standard or overhang PCR, we can input our necessary temperatures, durations, and cycles.</p>
 
 <p><img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/12303928_10208091002576641_8340500722028334979_o.jpg" alt="machine" class="center-image responsive-image" /></p>
 
-<h6 id="example-rfp-backbone">Example: RFP Backbone</h6>
+<p>######Example: RFP Backbone</p>
 
-<h6 id="linearized-backbones-are-essential-for-the-plasmids-we-create-they-contain-the-antibacterial-resistance-required-to-select-those-bacteria-that-actually-have-our-desired-plasmid-for-example-we-want-a-linear-backbone-that-contains-chloramphenicol-resistance-the-red-fluorescent-protein-rfp-in-the-backbone-gives-us-a-visual-clue-as-well-for-when-bacteria-are-successfully-proliferating-with-this-plasmid-using-a-rfp-plasmid-that-also-has-this-resistance-we-can-amplify-this-gene-directly-through-pcr-therefore-we-follow-the-previous-protocols-to-form-our-solution-and-our-cycles-a-note-that-might-not-have-come-out-clearly-form-last-week-if-the-template-dna-is-25kb-long-we-will-use-25-minutes-for-extension-time-this-has-two-purposes-i-it-provides-enough-time-for-the-polymerase-to-add-nucleotides-for-the-entire-length-of-the-gene-of-interest-from-template-dna-but-ii-it-also-keeps-the-extension-period-short-enough-so-that-we-dont-create-extremely-long-strands-of-dna-past-the-gene-of-interest-for-no-purposeful-reason-and-this-wastes-time-resources-and-can-make-the-pcr-reaction-less-efficient">Linearized backbones are essential for the plasmids we create. They contain the antibacterial resistance required to select those bacteria that actually have our desired plasmid. For example, we want a linear backbone that contains Chloramphenicol resistance. The red-fluorescent protein (RFP) in the backbone gives us a visual clue as well for when bacteria are successfully proliferating with this plasmid. Using a RFP plasmid that also has this resistance, we can amplify this gene directly through PCR. Therefore, we follow the previous protocols to form our solution and our cycles. A note that might not have come out clearly form last week: If the template DNA is 2.5kb long, we will use 2.5 minutes for extension time. This has two purposes: (i) it provides enough time for the polymerase to add nucleotides for the entire length of the gene of interest (from template DNA), but (ii) it also keeps the extension period short enough so that we don’t create extremely long strands of DNA past the gene of interest for no purposeful reason, and this wastes time, resources, and can make the PCR reaction less efficient.</h6>
+<p>######Linearized backbones are essential for the plasmids we create. They contain the antibacterial resistance required to select those bacteria that actually have our desired plasmid. For example, we want a linear backbone that contains Chloramphenicol resistance. The red-fluorescent protein (RFP) in the backbone gives us a visual clue as well for when bacteria are successfully proliferating with this plasmid. Using a RFP plasmid that also has this resistance, we can amplify this gene directly through PCR. Therefore, we follow the previous protocols to form our solution and our cycles. A note that might not have come out clearly form last week: If the template DNA is 2.5kb long, we will use 2.5 minutes for extension time. This has two purposes: (i) it provides enough time for the polymerase to add nucleotides for the entire length of the gene of interest (from template DNA), but (ii) it also keeps the extension period short enough so that we don’t create extremely long strands of DNA past the gene of interest for no purposeful reason, and this wastes time, resources, and can make the PCR reaction less efficient.</p>
 
 <p><img src="https://mnggraphics.files.wordpress.com/2015/11/screen-shot-2015-11-09-at-11-14-37-pm.png" alt="diagram" class="center-image responsive-image" /></p>
 
-<h4 id="thats-all-for-this-week">That’s all for this week!</h4>
-<p>Come back next week when we finalize the PCR procedure! If you have a question or comment, leave us a message below! We’ll see you next week!</p>
+<p>####That’s all for this week!
+Come back next week when we finalize the PCR procedure! If you have a question or comment, leave us a message below! We’ll see you next week!</p>
 
             <hr>
             <div class="container">
@@ -280,48 +282,6 @@ All into a PCR tube
 
 
            
-            
-            <!-- <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'andersonvom'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
- -->
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'mcmastergem';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'mcmastergem';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
             
         </div><! --/col-lg-8 -->
         
@@ -360,6 +320,12 @@ All into a PCR tube
         <ul class="popular-posts">
              
                 <li>
+                    <a href="/blog/2016/05/07/memories-from-igem-2016/"><img src="/img/blog/thumbs/may-7-2016-thumb.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/2016/05/07/memories-from-igem-2016/">Memories from iGem 2016</a></p>
+                <em>Posted on 07 May 2016</em>
+            </li>
+             
+                <li>
                     <a href="/blog/2015/12/28/the-light-box/"><img src="/img/blog/thumbs/Week-15-thumb.png" alt="Popular Post"></a>
                     <p><a href="/blog/2015/12/28/the-light-box/">The Light Box</a></p>
                 <em>Posted on 28 Dec 2015</em>
@@ -375,12 +341,6 @@ All into a PCR tube
                     <a href="/blog/2015/11/30/pcr-cleanup/"><img src="/img/blog/thumbs/Week-13-thumb.png" alt="Popular Post"></a>
                     <p><a href="/blog/2015/11/30/pcr-cleanup/">PCR Cycles</a></p>
                 <em>Posted on 30 Nov 2015</em>
-            </li>
-             
-                <li>
-                    <a href="/blog/2015/11/23/the-secret-sauce/"><img src="/img/blog/thumbs/Week-12-thumb.png" alt="Popular Post"></a>
-                    <p><a href="/blog/2015/11/23/the-secret-sauce/">PCR Cycles</a></p>
-                <em>Posted on 23 Nov 2015</em>
             </li>
              
         </ul>
@@ -401,9 +361,22 @@ All into a PCR tube
       
 
         
-          <h3>2015</h3>
+          <h3>2016</h3>
 
           
+
+        <ul>07 May 
+<a href="/blog/2016/05/07/memories-from-igem-2016/">Memories from iGem 2016</a></ul>
+  
+
+        
+          
+          
+          
+
+          <h3>2015</h3>
+          
+        
 
         <ul>28 Dec 
 <a href="/blog/2015/12/28/the-light-box/">The Light Box</a></ul>

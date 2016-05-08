@@ -197,54 +197,54 @@
             <a href="/blog/2015/11/02/a-primer-for-primer-design/"><h3 class="ctitle">10. A Primer for Primer Design</h3></a>
             <p><csmall>Nov 2, 2015. | By: Yu Fei Xia</csmall></p>
               
-            <h1 id="a-primer-for-primer-design">A Primer for Primer Design</h1>
+            <p>#A Primer for Primer Design</p>
 
 <p>Welcome back everyone! I hope you all had a great Halloween :). This week’s post is the first protocol entry for phase 2 of our Fledgling’s Guide series. We apologize for the brief break in our schedule last week, but from this week onwards the blog is back on track again! Today we will be talking about the very interesting concept of primer design. As Max has already explained in our <a href="http://mcmastergem.com/blog/2015/10/19/phase-one-complete/">most recent entry</a>, it is very common to obtain your plasmid, or cassette, with your gene of interest (GOI), but realize that it does not have the restriction sites needed for your project. Especially in the case of iGEM, where all BioBricks come with the standard 4 restriction sites to be used with the 3A assembly method (<a href="http://mcmastergem.com/blog/2015/09/21/digestion-not-the-eating-kind/">remember E, X, S, P</a>?), it is unlikely that a cassette can be ordered with these same restriction sites already included. PCR is a tool that can be used to isolate and amplify our specific GOI while adding the restriction sites of our choosing. This allows them to be compatible with our other iGEM BioBricks, and also match the correct format for BioBrick submissions. However, everything comes down to designing the perfect primer.</p>
 
-<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12190923_1125652094126585_1944749088803828038_n.jpg?oh=88b403cbed59cfe34b3dac9a244653b5&amp;oe=56BC9464" alt="" class="center-image responsive-image" />	</p>
+<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12190923_1125652094126585_1944749088803828038_n.jpg?oh=88b403cbed59cfe34b3dac9a244653b5&amp;oe=56BC9464" alt="" class="center-image responsive-image" /></p>
 
-<p><a href="https://actu.epfl.ch/news/optimal-qpcr-primer-design-2/">Source</a> </p>
+<p><a href="https://actu.epfl.ch/news/optimal-qpcr-primer-design-2/">Source</a></p>
 
 <p>Recall that a primer is a piece of single-stranded DNA that attaches to its complementary sequence on the cassette you plan to PCR. This sequence would of course be the beginning and end portions of your GOI. Therefore for every GOI you plan to isolate from a cassette, you will need to design TWO primers; the forward primer, which is about 20 bases complementary to the beginning of the sense strand, and the reverse primer, a sequence of about 20 bases complementary to the anti-sense strand of our GOI at the opposite end. This concept is shown in the drawing below:</p>
 
-<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/12195851_1125652114126583_6805539722550046149_n.jpg?oh=12b0bbc651b7b51e4428c456dea4d12b&amp;oe=56D10F77" alt="" class="center-image responsive-image" />	</p>
+<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/12195851_1125652114126583_6805539722550046149_n.jpg?oh=12b0bbc651b7b51e4428c456dea4d12b&amp;oe=56D10F77" alt="" class="center-image responsive-image" /></p>
 
 <p><a href="https://www.youtube.com/watch?v=tUyBwiyMsSU">Source</a> (also a helpful video for primer design!)</p>
 
 <p>These primers will allow Taq polymerase to attach to the plasmid at your primer, and amplify only the GOI. However, at this stage we are not finished yet! We need to check the <em>GC content</em> of our primers, and add <em>prefixes and suffixes</em> as well.</p>
 
-<h3 id="gc-content">GC Content:</h3>
+<p>###GC Content:</p>
 
 <p>As shown in the picture above, so far we have the forward primer <strong>5’ GCAATGCACTACGATTCGATC 3’</strong> and the reverse primer <strong>5’ GATGTCATGAGATCGAATCG 3’</strong> (note that the reverse primer is also written from 5’ to 3’!). However, their efficiency in annealing to the complementary site on our GOI (and subsequently starting the PCR amplification cycle) depends on the percentage of Guanine or Cytosine bases in the primer. This is because G and C are connected by 3 hydrogen bonds in double-stranded DNA, while A and T are only connected by 2. The primer with more GC content will naturally anneal more reliably to the GOI. The standard GC content of a primer should be 40-60%, and if this is not the case then the primer should be extended by 1-2 bases to include an extra G or C. In our case, both primers have a good GC content, so we do not need to extend them.</p>
 
-<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12208684_1125652097459918_9128906089060173895_n.jpg?oh=f4733cdc02c4ce78253988ccadffbe9f&amp;oe=56B7E0A8" alt="" class="center-image responsive-image" />	</p>
+<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12208684_1125652097459918_9128906089060173895_n.jpg?oh=f4733cdc02c4ce78253988ccadffbe9f&amp;oe=56B7E0A8" alt="" class="center-image responsive-image" /></p>
 
 <p><a href="https://en.wikipedia.org/wiki/GC-content">Source</a></p>
 
-<h3 id="prefixes-and-suffixes--adding-the-restriction-sites">Prefixes and Suffixes – Adding the Restriction Sites</h3>
+<p>###Prefixes and Suffixes – Adding the Restriction Sites</p>
 
 <p>At this point, we have working primers that will allow us to amplify our GOI. However, without the correct restriction sites on each end, we cannot digest the product with our restriction enzymes or ligate them to our BioBricks or plasmids. To solve this problem, we must add a prefix to the forward primer and a suffix to our reverse primer that are both the complementary sequence to the iGEM BioBrick format. The prefix or suffix followed by the original primer sequence will be our final primer design for the GOI. The prefix and suffix sequences will be incorporated in the second cycle of PCR so that the end result is our GOI with the E, X, S, and P restriction sites.</p>
 
 <p>The <a href="http://parts.igem.org/Help:BioBrick_Primers">standard BioBrick format</a> for prefixes and suffixes is as follows:</p>
 
-<p><strong>Prefix-F: 5’ GAATTCGCGGCCGCTTCTAG 3’</strong> </p>
+<p><strong>Prefix-F: 5’ GAATTCGCGGCCGCTTCTAG 3’</strong></p>
 
-<p><strong>Suffix-R: 5’ CTGCAGCGGCCGCTACTAGTA 3’</strong> </p>
+<p><strong>Suffix-R: 5’ CTGCAGCGGCCGCTACTAGTA 3’</strong></p>
 
 <p>Where <strong>GAATTC</strong> is the <em>EcoRI</em> restriction sequence, <strong>TCTAGA</strong> is the <em>Xbal</em> sequence, <strong>ACTAGT</strong> is the <em>Spel</em> sequence, and <strong>CTGCAG</strong> is the <em>Pstl</em> sequence. Note that <strong>GCGGCCGC</strong>, located between E and X as well as S and P, is a site called <em>Notl</em> that is 
 not one of the 4 restriction sites used in iGEM 1a assembly. The <em>Notl</em> site also has very high GC content, which in this case would be unbeneficial since it will raise the melting temperature for our PCR cycles (calculating melting temperatures will be covered in next week’s post on PCR). Since <em>Notl</em> is not used in any digestions or ligations, and is not integral to the primer structure, our team decided to remove them from our prefixes and suffixes. When the modified prefixes and suffixes are joined with the original primers, we have:</p>
 
 <p><strong>Forward: 5’ <em>GAATTCTTCTAG</em>  GCAATGCACTACGATTCGATC 3’</strong></p>
 
-<p><strong>Reverse: 5’ <em>CTGCATACTAGTA</em>  GATGTCATGAGATCGAATCG 3’</strong> </p>
+<p><strong>Reverse: 5’ <em>CTGCATACTAGTA</em>  GATGTCATGAGATCGAATCG 3’</strong></p>
 
 <p>Again, note that primers are always written from 5’-3’ even though the reverse is often 3’-5’ (see the first diagram) because this is the format for submission when you order your primers. Do not enter the sequence backwards, or you will receive an incorrect primer!</p>
 
 <p>Congratulations! You now know the basics of primer design for isolating genes from cassettes using PCR, as well as adding your own prefixes and suffixes to create restriction sites that are compatible with the assembly system you choose to use. This knowledge will be applied further next week, when you learn the basics of PCR with Max.</p>
 
-<p><em>Have a great week, and see you next Monday!</em>  </p>
+<p><em>Have a great week, and see you next Monday!</em></p>
 
-<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12122607_1125652117459916_3782239656567916963_n.jpg?oh=19632e0d008f0470d60456e24cb96302&amp;oe=56CC8947" alt="" class="center-image responsive-image" />	</p>
+<p><img src="https://scontent-yyz1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/12122607_1125652117459916_3782239656567916963_n.jpg?oh=19632e0d008f0470d60456e24cb96302&amp;oe=56CC8947" alt="" class="center-image responsive-image" /></p>
 
 <p><a href="http://www.clipartlord.com/category/halloween-clip-art/pumpkin-clip-art/jack-o-lantern-clip-art/">Source</a></p>
 
@@ -278,48 +278,6 @@ not one of the 4 restriction sites used in iGEM 1a assembly. The <em>Notl</em> s
 
 
            
-            
-            <!-- <div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'andersonvom'; // required: replace example with your forum shortname
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
- -->
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'mcmastergem';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'mcmastergem';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
             
         </div><! --/col-lg-8 -->
         
@@ -358,6 +316,12 @@ not one of the 4 restriction sites used in iGEM 1a assembly. The <em>Notl</em> s
         <ul class="popular-posts">
              
                 <li>
+                    <a href="/blog/2016/05/07/memories-from-igem-2016/"><img src="/img/blog/thumbs/may-7-2016-thumb.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/2016/05/07/memories-from-igem-2016/">Memories from iGem 2016</a></p>
+                <em>Posted on 07 May 2016</em>
+            </li>
+             
+                <li>
                     <a href="/blog/2015/12/28/the-light-box/"><img src="/img/blog/thumbs/Week-15-thumb.png" alt="Popular Post"></a>
                     <p><a href="/blog/2015/12/28/the-light-box/">The Light Box</a></p>
                 <em>Posted on 28 Dec 2015</em>
@@ -373,12 +337,6 @@ not one of the 4 restriction sites used in iGEM 1a assembly. The <em>Notl</em> s
                     <a href="/blog/2015/11/30/pcr-cleanup/"><img src="/img/blog/thumbs/Week-13-thumb.png" alt="Popular Post"></a>
                     <p><a href="/blog/2015/11/30/pcr-cleanup/">PCR Cycles</a></p>
                 <em>Posted on 30 Nov 2015</em>
-            </li>
-             
-                <li>
-                    <a href="/blog/2015/11/23/the-secret-sauce/"><img src="/img/blog/thumbs/Week-12-thumb.png" alt="Popular Post"></a>
-                    <p><a href="/blog/2015/11/23/the-secret-sauce/">PCR Cycles</a></p>
-                <em>Posted on 23 Nov 2015</em>
             </li>
              
         </ul>
@@ -399,9 +357,22 @@ not one of the 4 restriction sites used in iGEM 1a assembly. The <em>Notl</em> s
       
 
         
-          <h3>2015</h3>
+          <h3>2016</h3>
 
           
+
+        <ul>07 May 
+<a href="/blog/2016/05/07/memories-from-igem-2016/">Memories from iGem 2016</a></ul>
+  
+
+        
+          
+          
+          
+
+          <h3>2015</h3>
+          
+        
 
         <ul>28 Dec 
 <a href="/blog/2015/12/28/the-light-box/">The Light Box</a></ul>
