@@ -15,7 +15,7 @@ The Giant Jamboree is an international gathering of representatives from undergr
 
 ![Giant Jamboree](https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/13187830_10206249900229754_787392054_n.png?oh=ef8c5a885c03cee9289aae9bb70d145d&oe=5730A79B){: .center-image .responsive-image }
 
-![Fei Fei](https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/13153496_10206249919350232_1906714038_n.png?oh=a836a00e71e520ed8af454c355f53d8b&oe=5730A8C3 "Fei Fei") Fei Fei: Hi everyone! My name is Fei Fei, and you may remember me from the [first mGEM blog series](http://mcmastergem.com/blog/2015/08/17/a-fledgling-guide-to-syn-bio/). I’m here with Max, Karanbir, and Michael. Please introduce yourselves!    
+![Fei Fei](https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/13153496_10206249919350232_1906714038_n.png?oh=a836a00e71e520ed8af454c355f53d8b&oe=5730A8C3 "Fei Fei") Fei Fei: Hi everyone! My name is Fei Fei, and you may remember me from the [first mGEM blog series](http://mcmastergem.com/blog/2015/08/17/a-fledgling-guide-to-syn-bio/). I’m here with Max, Karanbir, and Michael. Please introduce yourselves!              
 
 ![Max](https://scontent-yyz1-1.xx.fbcdn.net/v/t34.0-12/13153468_10206253350636012_1466451684_n.png?oh=6f254ec0d297e10243d6861e44d906dd&oe=5732688C "Max") Max: Hello! My name’s Max, and you might also remember me from the first mGEM blog series! Last year I spent the summer working in the mGEM lab and this year I am the team manager.    
 
