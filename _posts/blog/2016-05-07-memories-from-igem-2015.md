@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Memories from iGem 2016"
+title: "Memories from iGem 2015"
 date:   2016-05-07 08:00:00
 author: Fei Fei, Max, Karanbir, Michael
 categories: 
