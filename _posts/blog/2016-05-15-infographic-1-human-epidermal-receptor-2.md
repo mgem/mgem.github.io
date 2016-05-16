@@ -6,7 +6,7 @@ author: Tony, Fei Fei
 categories: 
 - blog
 
-img: Infographic1-03.jpg
+img: Infographic1-03.png
 thumb: thumbnail2.jpg
 ---
 
