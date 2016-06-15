@@ -10,5 +10,5 @@ img: 2016-06-14-header.png
 thumb: thumbnail2.jpg
 ---
 
-![HER2 infographic](https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-14/Infographic1-02){: .center-image .responsive-image }
+![HER2 infographic](https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-14/Infographic1-02.png){: .center-image .responsive-image }
 
