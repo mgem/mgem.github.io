@@ -68,27 +68,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-
-    <script>
-    function getBio (name) {
-    var xhr;
-      if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); 		// all browsers except IE
-      else xhr = new ActiveXObject("Microsoft.XMLHTTP"); 		// for IE
-
-      xhr.open('GET', 'bios.xml', false);
-      xhr.onreadystatechange = function () {
-	       if (xhr.readyState===4 && xhr.status===200) {
-		         var bio = xhr.responseXML.getElementById(name);
-             var label = document.getElementById('myModalBody');
-             var para = document.getElementById('modBod');
-		         label.innerHTML = name;
-             para.innerHTML = bio;
-	        }
-        }
-        xhr.send();
-    }
-    </script>
-
 </head>
   <body>
     <!-- Navigation bar -->
@@ -568,6 +547,29 @@
     <!--<script type="text/javascript" src="//cdn.mailto.ninja/js/v0/mailto.ninja.js"></script>
     <script type="text/javascript">mailto.ninja()</script>-->
     <script src="js/theme.js"></script>
+
+    <!-- ref http://w3epic.com/how-to-load-content-from-xml-json-text-file-by-jquery-ajax/ -->
+    <script>
+    function getBio (name) {
+    var xhr;
+      if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); 		// all browsers except IE
+      else xhr = new ActiveXObject("Microsoft.XMLHTTP"); 		// for IE
+
+      xhr.open('GET', 'bios.xml', false);
+      xhr.overrideMimeType("text/xml");
+      xhr.onreadystatechange = function () {
+         if (xhr.readyState===4 && xhr.status===200) {
+             bio = xhr.responseXML.getElementsByTagName(name);
+             window.alert(bio[0].firstChild.nodeValue);
+             var label = document.getElementById('myModalBody');
+             var para = document.getElementById('modBod');
+             label.innerHTML = name;
+             para.innerHTML = bio[1];
+          }
+        }
+        xhr.send();
+    }
+    </script>
 
     <!-- Google Analytics
     ================================================== -->
