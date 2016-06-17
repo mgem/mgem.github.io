@@ -67,6 +67,28 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
+
+
+    <script>
+    function getBio (name) {
+    var xhr;
+      if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); 		// all browsers except IE
+      else xhr = new ActiveXObject("Microsoft.XMLHTTP"); 		// for IE
+
+      xhr.open('GET', 'bios.xml', false);
+      xhr.onreadystatechange = function () {
+	       if (xhr.readyState===4 && xhr.status===200) {
+		         var bio = xhr.responseXML.getElementById(name);
+             var label = document.getElementById('myModalBody');
+             var para = document.getElementById('modBod');
+		         label.innerHTML = name;
+             para.innerHTML = bio;
+	        }
+        }
+        xhr.send();
+    }
+    </script>
+
 </head>
   <body>
     <!-- Navigation bar -->
@@ -134,7 +156,7 @@
                 <div class="row">
                     <ul class="team-list sort-destination" data-sort-id="team">
 
-                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio">
+                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Max')">
                             <div class="team-item thumbnail">
                                 <a  class="thumb-info team">
                                     <img alt="" src="img/team/Max.jpg" height="480" width="320">
@@ -456,23 +478,22 @@
 
 
         <!--MODAL-->
-<div class="modal fade" id="showBio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Name</h4>
-      </div>
-      <div class="modal-body">
-        <p>Photo</p>
-        <p>Bio</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="modal fade" id="showBio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+              </div>
+              <div class="modal-body">
+                <p id="modBod"></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
     <!-- CONTACT US
     ==========================================-->
