@@ -135,7 +135,7 @@
                 <div class="row">
                     <ul class="team-list sort-destination" data-sort-id="team">
 
-                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Max')">
+                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio" onclick="getBio(7)">
                             <div class="team-item thumbnail">
                                 <a  class="thumb-info team">
                                     <img alt="" src="img/team/Max.jpg" height="480" width="320">
@@ -550,7 +550,7 @@
 
     <!-- ref http://w3epic.com/how-to-load-content-from-xml-json-text-file-by-jquery-ajax/ -->
     <script>
-    function getBio (name) {
+    function getBio (num) {
     var xhr;
       if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); 		// all browsers except IE
       else xhr = new ActiveXObject("Microsoft.XMLHTTP"); 		// for IE
@@ -559,12 +559,12 @@
       xhr.overrideMimeType("text/xml");
       xhr.onreadystatechange = function () {
          if (xhr.readyState===4 && xhr.status===200) {
-             bio = xhr.responseXML.getElementsByTagName(name);
-             window.alert(bio[0].firstChild.nodeValue);
-             var label = document.getElementById('myModalBody');
+             bios = xhr.responseXML.getElementsByTagName('bio');
+             //window.alert(bios[num].firstChild.nodeValue);
+             //var label = document.getElementById('myModalBody');
              var para = document.getElementById('modBod');
-             label.innerHTML = name;
-             para.innerHTML = bio[1];
+             //label.innerHTML = name;
+             para.innerHTML = bios[num].firstChild.nodeValue;
           }
         }
         xhr.send();
