@@ -561,10 +561,12 @@
          if (xhr.readyState===4 && xhr.status===200) {
              bios = xhr.responseXML.getElementsByTagName('bio');
              //window.alert(bios[num].firstChild.nodeValue);
-             //var label = document.getElementById('myModalBody');
+             var name = bios[1].getAttribute('id');
+             var b = bios[0].childNodes[0];
+             var label = document.getElementById('myModalBody');
              var para = document.getElementById('modBod');
              //label.innerHTML = name;
-             para.innerHTML = bios[num].firstChild.nodeValue;
+             para.innerHTML = "<p>"+b+"</p>";
           }
         }
         xhr.send();
