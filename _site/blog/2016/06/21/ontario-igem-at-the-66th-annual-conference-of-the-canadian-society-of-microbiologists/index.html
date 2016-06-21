@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>mGEM - Blog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet"> 
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+
+ <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mGEM - McMaster Genetically Engineered Machine</title>
+    <meta name="description" content="mGEM is an undergraduate run synthetic biology program to learn, understand, and implement synbio techniques to further advance science.">
+    <meta name="keywords" content="synthetic biology, mcmaster, university, igem, mgem, genetically, machined, engineered, bioengineering, biotechnology, international, biobricks">
+    <meta name="author" content="Kushal Panchal"> -->
+
+        <!-- facebook Open Graph Metadatas -->
+    <meta content="609039549219229" property="fb:app_id">
+    <meta content="mGEM" property="og:site_name">
+    
+      <meta content="Ontario iGEM at the 66th Annual Conference of the Canadian Society of Microbiologists" property="og:title">
+    
+    
+      <meta content="article" property="og:type">
+    
+    
+    
+      <meta content="http://mcmastergem.com/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/" property="og:url">
+    
+    
+      <meta content="http://mcmastergem.com/img/2016-06-21-header.png" property="og:image">
+    
+    
+      
+      <meta content="blog" property="article:section">
+      
+    
+    
+      
+    
+
+
+    <!-- Twitter cards metadatas -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iGEM_McMaster">
+    <meta name="twitter:creator" content="@iGEM_McMaster">
+    
+      <meta name="twitter:title" content="Ontario iGEM at the 66th Annual Conference of the Canadian Society of Microbiologists">
+    
+    
+      <meta name="twitter:url" content="http://mcmastergem.com/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/">
+    
+    
+    
+      <meta name="twitter:image:src" content="http://mcmastergem.com/img/2016-06-21-header.png">
+    
+    
+    <!-- MetaData Wrap -->
+    <!-- <link rel="canonical" href="http://mcmastergem.com/index.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="iGEM McMaster" />
+    <meta property="og:description" content="Welcome to mGEM! We are an undergraduate run synthetic biology program to learn, understand, and implement various synbio techniques to further advance science." />
+    <meta property="og:url" content="http://mcmastergem.com/index.html" />
+    <meta property="og:site_name" content="iGEM McMaster" />
+    <meta property="article:publisher" content="https://www.facebook.com/igemmcmaster" />
+    <meta property="og:image" content="http://mcmastergem.com/img/logo.png" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="iGem McMaster"/>
+    <meta name="twitter:site" content="@iGEM_McMaster"/>
+    <meta name="twitter:domain" content="mGEM"/>
+    <meta name="twitter:image:src" content="http://mcmastergem.com/img/logo.png"/> -->
+    <script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://mcmastergem.com/", "potentialAction": { "@type": "SearchAction", "target": "http://mcmastergem.com/?s={search_term}", "query-input": "required name=search_term" } }</script>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="/css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+
+
+    <script type="text/javascript" src="/js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+
+</head>
+
+    <body>
+        <!-- Fixed navbar -->
+<!-- <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">mGEM</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li ><a href="/">HOME</a></li>
+        <li ><a href="/blog/">BLOG</a></li>
+        <li ><a href="/portfolio/">PORTFOLIO</a></li>
+        <li ><a href="/about/">ABOUT</a></li>
+        <li ><a href="/contact/">CONTACT</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+<!--   </div>
+</div>  -->
+
+<!-- Navigation bar -->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top" style="width: device-width">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/index.html"><img src="/img/mGEM.png"/></a>
+    </div>
+    <!-- Collect   the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/#tf-about" class="page-scroll">iGEM</a></li>
+            <li><a href="/#tf-mgem" class="page-scroll">mGEM</a></li>
+            <li><a href="/#tf-synbio" class="page-scroll">SynBio</a></li>
+        </ul>
+    </li>
+    <li><a href="/#tf-clients" class="page-scroll">Sponsors</a></li>
+    <li><a href="/blog" class="page-scroll" style="color:#990033">Blog</a></li>
+    <li><a href="/projects.html" class="page-scroll">Projects</a></li>
+    <li><a href="/events.html" class="page-scroll">Events</a></li>
+    <li><a href="/tp.html" class="page-scroll">Team</a></li>
+
+    <li><a button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact</a></li>
+</ul>
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+
+            <div id="blue">
+    <div class="container">
+        <div class="row">
+            <h3>Ontario iGEM at the 66th Annual Conference of the Canadian Society of Microbiologists</h3>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /blue -->
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8">
+            <! -- Blog Post  -->
+            <p><img class="img-responsive" src="/img/blog/2016-06-21-header.png"></p>
+            <a href="/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/"><h3 class="ctitle">Ontario iGEM at the 66th Annual Conference of the Canadian Society of Microbiologists</h3></a>
+            <p><csmall>Jun 21, 2016. | By: Fei Fei</csmall></p>
+              
+            <p>On June 14th 2016, McMaster iGEM attended our seasonal Ontario iGEM (oGEM) meeting to exchange project ideas, give feedback, and network with other Ontario University iGEM Teams. In attendance were teams from University of Toronto (UofT), Queen’s University, University of Waterloo, University of Ottawa, Ryerson University and of course McMaster University.</p>
+
+<p><img src="https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-21/01.png" alt="Outside" class="center-image responsive-image" /></p>
+
+<p>This year, oGEM was invited to the 66th Annual Conference of the Canadian Society of Microbiologists (CSM), hosted in MacLeod Hall at UofT. We were very honoured to have been given a booth and a presentation timeslot for our projects on behalf of Ontario Genomics.</p>
+
+<p><img src="https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-21/02.png" alt="oGem table" class="center-image responsive-image" /></p>
+
+<p>All of the iGEM teams had great project ideas, and we were very impressed with everyone’s policy and practice initiatives. For example, UofT introduced their Synbio Network initiative, which hopes to connect researchers and faculty across Canada. We are excited to be part of this collaboration, and look forward to sharing information and resources in order to forward this project.</p>
+
+<p><img src="https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-21/03.png" alt="Poster presentations" class="center-image responsive-image" /></p>
+
+<p>We would also like to give a big thank you to the CSM and all the oGEM teams for insightful questions and valuable feedback on our project presentation. It was extremely helpful for us to hear everyone’s opinions and past experiences.</p>
+
+<p><img src="https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-21/04.png" alt="Live presentation" class="center-image responsive-image" /></p>
+
+<p>Our second oGEM meeting this year, it has been a great experience, and we are extremely happy to be moving forward with other Ontario iGEM teams through collaboration. See you at the next oGEM conference!</p>
+
+<p><img src="https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-06-21/05.png" alt="Group photo" class="center-image responsive-image" /></p>
+
+            <hr>
+            <div class="container">
+  <div class="row ">
+    <div class="col-xs-2"></div>
+    <div class="col-xs-8">
+
+       <!-- Twitter -->
+       <a href="https://twitter.com/share" class="twitter-share-button" data-via="iGEM_McMaster">Tweet</a>
+       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+       <!-- Facebook -->
+       <div class="fb-like" data-href="http://mcmastergem.com/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true" style="position: relative; top: -5px; left: 2px;"></div>
+       <div id="fb-root"></div>
+       <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+    </div>
+  </div>
+  <div class="col-xs-2"></div>
+</div>
+
+
+
+           
+            
+        </div><! --/col-lg-8 -->
+        
+        <div class="col-lg-4">
+   <!--  <h4>Search</h4>
+    <div class="hline"></div>
+        <p>
+            <br/>
+            <input type="text" class="form-control" placeholder="Search something">
+        </p>
+    <div class="spacing"></div> -->
+    <h4>Stay Connected</h4>
+    <div class="hline"></div>
+        <p>
+                <ul class="social-network social-circle">
+                    <li><a href="https://www.facebook.com/igemmcmaster" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/iGEM_McMaster" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/igemmcmaster" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.github.com/mgem" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
+                    <li><a href="mailto:contact@mcmastergem.com" class="icoEnvelope" title="E-mail"><i class="fa fa-envelope"></i></a></li>
+
+                </ul> 
+          
+        </p>
+
+    <div class="spacing"></div>
+<!--     <h4>Categories</h4>
+    <div class="hline"></div>
+    
+
+    <div class="spacing"></div> -->
+
+    <h4>Recent Posts</h4>
+    <div class="hline"></div>
+    <br>
+        <ul class="popular-posts">
+             
+                <li>
+                    <a href="/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/"><img src="/img/blog/thumbs/2016-06-21-thumb.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/">Ontario iGEM at the 66th Annual Conference of the Canadian Society of Microbiologists</a></p>
+                <em>Posted on 21 Jun 2016</em>
+            </li>
+             
+                <li>
+                    <a href="/blog/2016/06/14/infographic-3-designed-ankyrin-repeat-proteins/"><img src="/img/blog/thumbs/thumbnail2.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/2016/06/14/infographic-3-designed-ankyrin-repeat-proteins/">Infographic #3: Designed Ankyrin Repeat Proteins</a></p>
+                <em>Posted on 14 Jun 2016</em>
+            </li>
+             
+                <li>
+                    <a href="/blog/2016/05/30/infographic-2-interleukin-2/"><img src="/img/blog/thumbs/thumbnail2.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/2016/05/30/infographic-2-interleukin-2/">Infographic #2: Interleukin 2</a></p>
+                <em>Posted on 30 May 2016</em>
+            </li>
+             
+                <li>
+                    <a href="/blog/2016/05/24/may-2016/"><img src="/img/blog/thumbs/Monthlyupdatethumb.jpg" alt="Popular Post"></a>
+                    <p><a href="/blog/2016/05/24/may-2016/">May 2016</a></p>
+                <em>Posted on 24 May 2016</em>
+            </li>
+             
+        </ul>
+
+    <div class="spacing"></div>
+
+<!--     <h4>Popular Tags</h4>
+    <div class="hline"></div>
+    <p>
+    
+    </p> 
+
+    <div class="spacing"></div> -->
+
+    <h4>Archives</h4>
+    <div class="hline"></div>
+    <p>
+      
+
+        
+          <h3>2016</h3>
+
+          
+
+        <ul>21 Jun 
+<a href="/blog/2016/06/21/ontario-igem-at-the-66th-annual-conference-of-the-canadian-society-of-microbiologists/">Ontario iGEM at the 66th Annual Conference of the Canadian Society of Microbiologists</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>14 Jun 
+<a href="/blog/2016/06/14/infographic-3-designed-ankyrin-repeat-proteins/">Infographic #3: Designed Ankyrin Repeat Proteins</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>30 May 
+<a href="/blog/2016/05/30/infographic-2-interleukin-2/">Infographic #2: Interleukin 2</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>24 May 
+<a href="/blog/2016/05/24/may-2016/">May 2016</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>15 May 
+<a href="/blog/2016/05/15/infographic-1-human-epidermal-receptor-2-Copy/">Infographic #1: Human Epidermal Receptor 2</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>07 May 
+<a href="/blog/2016/05/07/memories-from-igem-2015/">Memories from iGem 2015</a></ul>
+  
+
+        
+          
+          
+          
+
+          <h3>2015</h3>
+          
+        
+
+        <ul>28 Dec 
+<a href="/blog/2015/12/28/the-light-box/">The Light Box</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>07 Dec 
+<a href="/blog/2015/12/07/troubleshooting-did-you-try-turning-it-off-and-on/">14. Troubleshooting: Did You Try Turning it Off and then On Again?</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>30 Nov 
+<a href="/blog/2015/11/30/pcr-cleanup/">PCR Cycles</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>23 Nov 
+<a href="/blog/2015/11/23/the-secret-sauce/">PCR Cycles</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>09 Nov 
+<a href="/blog/2015/11/09/pcr-cycles/">PCR Cycles</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>02 Nov 
+<a href="/blog/2015/11/02/a-primer-for-primer-design/">10. A Primer for Primer Design</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>19 Oct 
+<a href="/blog/2015/10/19/phase-one-complete/">Phase 1, Complete!</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>12 Oct 
+<a href="/blog/2015/10/12/The-Sequence-Matters/">The Sequence Matters!</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>05 Oct 
+<a href="/blog/2015/10/05/Ligations-gels-not-included/">Ligations (gels not included)</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>28 Sep 
+<a href="/blog/2015/09/28/gelception/">6. Gels - Proper Experimental Procedure or Just Confusing? </a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>21 Sep 
+<a href="/blog/2015/09/21/digestion-not-the-eating-kind/">5. Digestion (not the eating kind!)</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>14 Sep 
+<a href="/blog/2015/09/14/e-coli-go-to-a-happier-place/">4. Miniprep! The E. coli Go to a Happier Place...</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>07 Sep 
+<a href="/blog/2015/09/07/streaking-overnight-cultures-and-glycerol-stocks/">Week 3. Streaking, Overnight Cultures, and Glycerol Stocks</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>31 Aug 
+<a href="/blog/2015/08/31/the-magical-world-of-transformations/">Week 2. Transform! - The Magical World of Transformations</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>24 Aug 
+<a href="/blog/2015/08/24/week-1-preparing-the-lab/">Week 1. Preparing the lab (for science!)</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>17 Aug 
+<a href="/blog/2015/08/17/a-fledgling-guide-to-syn-bio/">A Fledgling's Guide to Syn Bio</a></ul>
+  
+
+        
+          
+          
+          
+        
+
+        <ul>17 May 
+<a href="/blog/2015/05/17/you-found-us/">You Found Us!</a></ul>
+  
+    </p>
+</div>
+
+
+
+    </div><! --/row -->
+</div><! --/container -->
+
+     <!--        <div class="spacing"></div>
+             <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>               
+            </p> 
+ -->
+
+            <!-- CONTACT US
+    ==========================================-->
+    <div class="modal fade text-center" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Get in Touch</h4>
+        </div>
+        <div class="modal-body">
+            <ul class="social-network social-circle">
+                <li><a href="https://www.facebook.com/igemmcmaster" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/iGEM_McMaster" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/igemmcmaster" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.github.com/mgem" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.igem.org" class="icoDiamond" title="iGEM"><i class="fa fa-diamond"></i></a></li>
+                <li><a onclick="$('#myModal').modal('hide')" href="mailto:contact@mcmastergem.com" class="icoEnvelope" title="E-mail"><i class="fa fa-envelope"></i></a></li>
+
+            </ul>               
+        </div>
+    </div>
+</div>
+</div>
+
+    <!-- FOOTER
+    ==========================================-->
+
+    <nav id="footer">
+        <div class="container">
+            <div class="pull-left fnav">
+                <br>
+                <p>&copy; 2015 mGEM - Designed by <a href="http://kushalpanchal.me">Kushal Panchal </a></p>
+            </div>
+            <div class="pull-right fnav">
+                <ul class="social-network social-circle">
+                    <li><a href="https://www.facebook.com/igemmcmaster" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/iGEM_McMaster" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/igemmcmaster" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.github.com/mgem" class="icoGithub" title="Github"><i class="fa fa-github"></i></a></li>
+                    <li><a href="mailto:contact@mcmastergem.com" class="icoEnvelope" title="E-mail"><i class="fa fa-envelope"></i></a></li>
+
+                </ul> 
+            </div>
+        </div>
+    </nav>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="/js/bootstrap.js"></script> 
+<script type="text/javascript" src="/js/SmoothScroll.js"></script>
+<script type="text/javascript" src="/js/jquery.isotope.js"></script> 
+<script src="js/owl.carousel.js"></script>
+
+<!-- Javascripts
+================================================== -->
+<script type="text/javascript" src="/js/main.js"></script> 
+<script type="text/javascript" src="//cdn.mailto.ninja/js/v0/mailto.ninja.js"></script>
+<script type="text/javascript">mailto.ninja()</script>
+<style> .override.mailto.ninja footer nav.toolbar { background-color: #990033;} </style>
+    </body>
+</html>

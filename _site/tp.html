@@ -67,6 +67,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
+
 </head>
   <body>
     <!-- Navigation bar -->
@@ -117,15 +118,16 @@
                     </div>
                 </div>
                 <br>
-                <p> Check Back Soon For Updates! </p>
-                <!--ul class="nav nav-pills sort-source" data-sort-id="team" data-option-key="filter">
+                <ul class="nav nav-pills sort-source" data-sort-id="team" data-option-key="filter">
                     <li data-option-value="*" class="active"><a href="#">Show All</a></li>
                     <li data-option-value=".managers"><a href="#">Managers</a></li>
-                    <li data-option-value=".research"><a href="#">Research</a></li>
                     <li data-option-value=".pr"><a href="#">Public Relations</a></li>
                     <li data-option-value=".bd"><a href="#">Business & Development</a></li>
                     <li data-option-value=".outreach"><a href="#">Outreach</a></li>
                     <li data-option-value=".super"><a href="#">Supervisors</a></li>
+                    <li data-option-value=".wlab"><a href="#">Wet Lab</a></li>
+                    <li data-option-value=".dlab"><a href="#">Dry Lab</a></li>
+                    <li data-option-value=".hp"><a href="#">Human Practices</a></li>
                 </ul>
 
                 <hr>
@@ -133,95 +135,330 @@
                 <div class="row">
                     <ul class="team-list sort-destination" data-sort-id="team">
 
-                        <li class="span3 isotope-item managers research">
+                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Maxwell Ng', 7)">
                             <div class="team-item thumbnail">
                                 <a  class="thumb-info team">
                                     <img alt="" src="img/team/Max.jpg" height="480" width="320">
                                     <span class="thumb-info-title">
-                                        <span class="thumb-info-inner">Max Ng</span>
+                                        <span class="thumb-info-inner">Maxwell Ng</span>
                                         <span class="thumb-info-type">Team Lead</span>
                                     </span>
                                 </a>
-                                <span class="thumb-info-caption" hidden="true">
-                                    <p>Max is the new team manager for McMaster iGEM, and continuing to do wet lab research from last year. Currently completing the Bachelor of
-                                      Health Sciences (Honours) program, he is also fascinated by biotechnology, music cognition, the Titan Arums, and quantum mechanics. Other interests include
-                                      making educational videos, playing trumpet and piano, and watching the thin disc of our galaxy reveal itself under a starlight night.</p>
-                                    <div class="thumb-info-social-icons">
-                                        <a rel="tooltip" data-placement="bottom" target="_blank" href="mailto:@mcmaster.ca" data-original-title="E-Mail"><i class="icon-envelope"></i><span>E-Mail</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://twitter.com/" data-original-title="Twitter"><i class="icon-twitter"></i><span>Twitter</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://www.linkedin.com/in/" data-original-title="Linkedin"><i class="icon-linkedin"></i><span>Linkedin</span></a>
-                                    </div>
-                                </span>
                             </div>
                         </li>
 
-                        <li class="span3 isotope-item managers research">
+                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Vivan Lau', 1)">
                             <div class="team-item thumbnail">
                                 <a  class="thumb-info team">
                                     <img alt="" src="img/team/Vivian.jpg" height="480" width="320">
                                     <span class="thumb-info-title">
-                                        <span class="thumb-info-inner">Vivian Lau</span>
+                                        <span class="thumb-info-inner">Vivan Lau</span>
                                         <span class="thumb-info-type">Wet Lab Lead</span>
                                     </span>
                                 </a>
-                                <span class="thumb-info-caption" hidden="true">
-                                    <p>Vivian is head of wet lab research for iGEM McMaster 2016 and has recently graduated from Honours Chemical Biology co-op in April 2016.
-                                      She is currently studying cancer immunotherapy in the Bramson lab at the McMaster Immunology Research Center, continuing on as a Master's
-                                      candidate in Sept 2016. Her past experiences in industry and academia sparked her enthusiasm for immunology and the pursuit of a career in
-                                      research and development. Vivian enjoys spending time with her labmates, sandbox video games, and board games that pit friends against one another.</p>
-                                    <div class="thumb-info-social-icons">
-                                        <a rel="tooltip" data-placement="bottom" target="_blank" href="mailto:@mcmaster.ca" data-original-title="E-Mail"><i class="icon-envelope"></i><span>E-Mail</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://twitter.com/" data-original-title="Twitter"><i class="icon-twitter"></i><span>Twitter</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://www.linkedin.com/in/" data-original-title="Linkedin"><i class="icon-linkedin"></i><span>Linkedin</span></a>
-                                    </div>
-                                </span>
                             </div>
                         </li>
 
-
-                        < Supervisors >
-                        <li class="span3 isotope-item super">
+                        <li class="span3 isotope-item wlab hp managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Mohammed (Fawad) Ahmed', 2)">
                             <div class="team-item thumbnail">
                                 <a  class="thumb-info team">
-                                    <img alt="" src="img/team/Silva.jpg">
+                                    <img alt="" src="img/team/.jpg" height="480" width="320">
                                     <span class="thumb-info-title">
-                                        <span class="thumb-info-inner">Dr. Rosa Da Silva</span>
-                                        <span class="thumb-info-type">Advisor</span>
+                                        <span class="thumb-info-inner">Mohammed (Fawad) Ahmed</span>
+                                        <span class="thumb-info-type">Assistant Team Lead</span>
                                     </span>
                                 </a>
-                                <span class="thumb-info-caption">
-                                    <p>Professor with PhD in <br> cell and systems biology</p>
-                                    <div class="thumb-info-social-icons">
-                                        <a rel="tooltip" data-placement="bottom" target="_blank" href="mailto:rosa.dasilva@mcmaster.ca" data-original-title="E-Mail"><i class="icon-envelope"></i><span>E-Mail</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://twitter.com/ShareTheScience" data-original-title="Twitter"><i class="icon-twitter"></i><span>Twitter</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://www.linkedin.com/in/rosadasilvaphd" data-original-title="Linkedin"><i class="icon-linkedin"></i><span>Linkedin</span></a>
-                                    </div>
-                                </span>
                             </div>
                         </li>
 
-                        <li class="span3 isotope-item super">
+                        <li class="span3 isotope-item pr managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Fei Fei', 24)">
                             <div class="team-item thumbnail">
                                 <a  class="thumb-info team">
-                                    <img alt="" src="img/team/Cowie.jpg">
+                                    <img alt="" src="img/team/Fei.jpg" height="480" width="320">
                                     <span class="thumb-info-title">
-                                        <span class="thumb-info-inner">Alison Cowie</span>
-                                        <span class="thumb-info-type">Advisor</span>
+                                        <span class="thumb-info-inner">Fei Fei</span>
+                                        <span class="thumb-info-type">Public Relations Lead</span>
                                     </span>
                                 </a>
-                                <span class="thumb-info-caption">
-                                    <p>Research Assistant and <br> Instructional Assistant</p>
-                                    <div class="thumb-info-social-icons">
-                                        <a rel="tooltip" data-placement="bottom" target="_blank" href="mailto:cowieal@mcmaster.ca" data-original-title="E-Mail"><i class="icon-envelope"></i><span>E-Mail</span></a>
-                                        <a rel="tooltip" data-placement="bottom" href="https://ca.linkedin.com/pub/alison-cowie/35/546/196" data-original-title="Linkedin"><i class="icon-linkedin"></i><span>Linkedin</span></a>
-                                    </div>
-                                </span>
                             </div>
                         </li>
 
-                    </ul-->
+                        <li class="span3 isotope-item managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Ramneet Mann', 20)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Ramneet Mann</span>
+                                        <span class="thumb-info-type">Community Outreach Lead</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab managers" data-toggle="modal" data-target="#showBio" onclick="getBio('Yosef Ellenbogen', 23)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Yosef.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Yosef Ellenbogen</span>
+                                        <span class="thumb-info-type">Wet Lab Lead</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Tony Chen', 0)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Tony.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Tony Chen</span>
+                                        <span class="thumb-info-type">Wet Lab / Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab hp outreach" data-toggle="modal" data-target="#showBio" onclick="getBio('Clara Long', 3)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Clara.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Clara Long</span>
+                                        <span class="thumb-info-type">Wet Lab / Public Relations / Outreach </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab hp outreach" data-toggle="modal" data-target="#showBio" onclick="getBio('Haley (Hwa Young) Yun', 4)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Haley.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Haley (Hwa Young) Yun</span>
+                                        <span class="thumb-info-type">Wet Lab / Human Practices / Outreach</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item pr bd" data-toggle="modal" data-target="#showBio" onclick="getBio('Farhaan', 5)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Farhaan.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Farhaan</span>
+                                        <span class="thumb-info-type">Public Realations / Business</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item dlab" data-toggle="modal" data-target="#showBio" onclick="getBio('Lauren Liu', 6)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Lauren.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Lauren Liu</span>
+                                        <span class="thumb-info-type">Dry Lab</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab outreach" data-toggle="modal" data-target="#showBio" onclick="getBio('Samaher Ramzan', 8)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Samaher.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Samaher Ramzan</span>
+                                        <span class="thumb-info-type">Wet Lab / Outreach</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item dlab pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Kaijie Zhang', 9)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Kaijie.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Kaijie Zhang</span>
+                                        <span class="thumb-info-type">Dry Lab / Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab" data-toggle="modal" data-target="#showBio" onclick="getBio('Beenish Ajmal', 10)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Beenish.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Beenish Ajmal</span>
+                                        <span class="thumb-info-type">Wet Lab</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Dhanyasri Maddiboina', 11)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Dhany.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Dhanyasri Maddiboina</span>
+                                        <span class="thumb-info-type">Wet Lab / Public Realtions</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab" data-toggle="modal" data-target="#showBio" onclick="getBio('Chirayu Bhatt', 12)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Chirayu.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Chirayu Bhatt</span>
+                                        <span class="thumb-info-type">Wet Lab</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab outreach" data-toggle="modal" data-target="#showBio" onclick="getBio('Mobeen Mubasher', 13)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Mobeen.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Mobeen Mubasher</span>
+                                        <span class="thumb-info-type">Wet Lab / Outreach</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item hp pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Jinny', 14)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Jinny.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Jinny</span>
+                                        <span class="thumb-info-type">Human Practices / Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab bd" data-toggle="modal" data-target="#showBio" onclick="getBio('Karanbir Brar', 15)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Karanbir.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Karanbir Brar</span>
+                                        <span class="thumb-info-type">Wet Lab / Business</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab hp" data-toggle="modal" data-target="#showBio" onclick="getBio('Melodie Kim', 16)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Melodie.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Melodie Kim</span>
+                                        <span class="thumb-info-type">Wet Lab / Human Practices</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Candy Niu', 17)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Candy.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Candy Niu</span>
+                                        <span class="thumb-info-type">Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item dlab pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Nicolas Lehman', 18)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Nicolas.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Nicolas Lehman</span>
+                                        <span class="thumb-info-type">Dry Lab / Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item dlab pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Ian Fare', 19)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Ian.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Ian Fare</span>
+                                        <span class="thumb-info-type">Dry Lab / Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item wlab hp outreach" data-toggle="modal" data-target="#showBio" onclick="getBio('Rui Sun', 21)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Rui.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Rui Sun</span>
+                                        <span class="thumb-info-type">Wet Lab / Human Practices / Outreach</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li class="span3 isotope-item dlab pr" data-toggle="modal" data-target="#showBio" onclick="getBio('Christine Wang', 22)">
+                            <div class="team-item thumbnail">
+                                <a  class="thumb-info team">
+                                    <img alt="" src="img/team/Christine.jpg" height="480" width="320">
+                                    <span class="thumb-info-title">
+                                        <span class="thumb-info-inner">Christine Wang</span>
+                                        <span class="thumb-info-type">Dry Lab / Public Relations</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- Supervisors -->
+
+
+                    </ul>
                 </div>
             </div>
+        </div>
+
+
+        <!--MODAL-->
+        <div class="modal fade" id="showBio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+              </div>
+              <div class="modal-body " id="modBod">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
 
     <!-- CONTACT US
@@ -297,6 +534,29 @@
     <!--<script type="text/javascript" src="//cdn.mailto.ninja/js/v0/mailto.ninja.js"></script>
     <script type="text/javascript">mailto.ninja()</script>-->
     <script src="js/theme.js"></script>
+
+    <!-- ref http://w3epic.com/how-to-load-content-from-xml-json-text-file-by-jquery-ajax/ -->
+    <script>
+    function getBio(name, num) {
+      var xhr;
+      if (window.XMLHttpRequest) xhr = new XMLHttpRequest(); 		// all browsers except IE
+      else xhr = new ActiveXObject("Microsoft.XMLHTTP"); 		// for IE
+
+      xhr.open('GET', 'bios.xml', false);
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState===4 && xhr.status===200) {
+          var items = xhr.responseXML.getElementsByTagName('desc');
+          var output = '<p>';
+          output += items[num].firstChild.nodeValue + '</p>';
+          var title = document.getElementById('myModalLabel');
+          var bod = document.getElementById('modBod');
+          bod.innerHTML = output;
+          title.innerHTML = name;
+        }
+      }
+      xhr.send();
+    }
+    </script>
 
     <!-- Google Analytics
     ================================================== -->

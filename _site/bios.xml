@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bios>
+  <bio id="Tony">
+    <desc>Tony is a member of the wet lab research team. He is a 2nd year
+      undergraduate at McMaster University in the Bachelor of Health Sciences
+      (Honours) program. His research interests include biochemistry as well as
+      multimedia-based approaches to education. Outside the lab, he is often
+      found working on various graphics and video projects. His spirit creature
+      is the humble potato.
+    </desc>
+  </bio>
+  <bio id="Vivian">
+    <desc> Vivian is head of wet lab research for iGEM McMaster 2016 and has
+      recently graduated from Honours Chemical Biology co-op in April 2016. She
+       is currently studying cancer immunotherapy in the Bramson lab at the
+       McMaster Immunology Research Center, continuing on as a Master's
+       candidate in Sept 2016. Her past experiences in industry and academia
+       sparked her enthusiasm for immunology and the pursuit of a career in
+       research and development. Vivian enjoys spending time with her labmates,
+       sandbox video games, and board games that pit friends against one another.
+    </desc>
+  </bio>
+  <bio id="Fawad">
+    <desc>Mohammed (Fawad) Ahmed is the Assistant Head of iGEM McMaster, a member
+      of the Wet Lab research team, and the Human Practices team. He is currently
+       completing an undergraduate degree in the Biomedical Discovery and
+       Commercialization (BDC) program at McMaster University. Outside of his
+       program and the lab, Mohammed is a founder of the technological start-up
+       company ‘Eatable’ and spends his time planning the next cool Google event
+        as a Google Ambassador. In his remaining spare time, he loves watching
+        mystery TV programs and cooking some very delicious food.
+    </desc>
+  </bio>
+  <bio id="Clara">
+    <desc>Clara is currently a third year student at McMaster, studying Health
+      Sciences. She is really excited to be part of the McMaster iGEM team this
+      year, as part of Human Practices, Community Outreach and as a general Wet
+      Lab research member. She has some experience in different research labs,
+      and she hopes to further her knowledge and learn new molecular biology
+      techniques while working on this project. Her interests outside of
+      synthetic biology include cheesecake and coffee.
+    </desc>
+  </bio>
+  <bio id="Haley">
+    <desc>Haley is involved with the McMaster iGEM’s wet lab research team and
+      the community outreach and human practices subcommittees. She is currently
+      completing an undergraduate degree in the Bachelor of Science (Honours) at
+      McMaster University. Her areas of interest includes a wide variety of
+      topics, from genetics and molecular biology to viruses.
+    </desc>
+  </bio>
+  <bio id="Farhaan">
+    <desc>Farhaan is a member of the public relations and business and
+      development teams of iGEM McMaster. He is currently enrolled in the
+      Molecular Biology and Genetics BSc program at McMaster University. This
+      summer he will be completing a co-op thesis at the National Research
+      Council of Canada in Saskatoon, SK. Nonetheless, he will be lending
+      a helping hand when applying for team funding and regularly updating
+      mGEM's Instagram page (/igemmcmaster) with pictures that give a glimpse
+      into synthetic biology research and the lives of our happy team of minions.
+    </desc>
+  </bio>
+  <bio id="Lauren">
+    <desc>Lauren is a member of the McMaster iGEM dry lab research team.
+      She has just completed her first year in the Faculty of Engineering
+      at McMaster U, and hopes to continue her Bachelor of Engineering in
+      the Electrical and Biomedical Engineering program. She has a strong
+      interest in cardiology, electrophysiology and in immunotherapy, and
+      outside of iGEM, is involved in various cardiac research projects. Her
+      interests include heart failure and atrial fibrillation, as well as the
+      integration of technological devices in the health care field and in
+      patient self-care. In her spare time, she is an oboist for the McMaster
+      Engineering Musical, plays on an intramural soccer team with her
+      housemates, and enjoys spending quality time with her bunny.
+    </desc>
+  </bio>
+  <bio id="Max">
+    <desc>
+    Max is the new team manager for McMaster iGEM, and continuing to do
+      wet lab research from last year. Currently completing the Bachelor of
+      Health Sciences (Honours) program, he is also fascinated by biotechnology,
+       music cognition, the Titan Arums, and quantum mechanics. Other interests
+       include making educational videos, playing trumpet and piano, and
+       watching the thin disc of our galaxy reveal itself under a starlight night.
+     </desc>
+  </bio>
+  <bio id="Samaher">
+    <desc>Samaher Ramzan is a wet lab research team member and part of community
+       outreach . She is currently completing an undergraduate degree in
+       Biotechnology at McMaster University. In addition to iGEM, her past and
+       current research projects include the development of microfluidic devices
+        for high content drug screening and developing sensors for monitoring
+         water quality. Outside the lab Samaher is a mentor for lower year
+         students, a soccer enthusiast and enjoys learning new things.
+    </desc>
+  </bio>
+  <bio id="Kaijie">
+    <desc>Kaijie is a member of the Dry Lab and Web Development teams for
+      McMaster iGEM. He is currently studying Electrical and Biomedical
+      Engineering at McMaster University, and will graduate in 2017. Kaijie
+      has previously worked for Lumentra Inc., Turak Research Group, and Holland
+       Bloorview Kids Rehabiliation Hospital; acquiring a variety of skills and
+       assets. Beyond iGEM, he has also joined the MAC Formula Electric Team,
+       and the BioEngineering at McMaster Society. In his free time, Kaijie
+       develops apps, plays the piano, and competes in volleyball tournaments.
+    </desc>
+  </bio>
+  <bio id="Beenish">
+    <desc>Beenish Ajmal is a part of wet lab team in iGEM. She is currently
+      finishing her undergraduate degree in bachelor's of Technology,
+      Biotechnology stream at Mcmaster University. She is so into exploring
+      and trying new opportunities in her life.
+    </desc>
+  </bio>
+  <bio id="Dhany">
+    <desc>Dhanyasri is part of the wet lab research team this summer and also
+      manages the iGEM Facebook page. She worked with iGEM last summer on their
+       previous project and learned many techniques. Her program of study is
+       Integrated Science (iSci) with a specialization in chemical biology. In
+       addition to iGEM, she is working on using radioisotope analysis in order
+       to reveal more about the composition of bone mineral. Outside of lab
+       work, Dhanyasri enjoys anime, cosplaying, and spam watching TV shows.
+    </desc>
+  </bio>
+  <bio id="Chirayu">
+    <desc>Chirayu (Rayu) Bhatt is a member of iGEM's wet-lab team. He is
+      currently in his third year of honours biochemistry and is excited to
+      begin his first year on the iGEM team. Aside from school work and lab
+      work, Rayu enjoys acting and has performed with the McMaster Thespian
+      Company and several other theatre productions at McMaster.
+    </desc>
+  </bio>
+  <bio id="Mobeen">
+    <desc>Mobeen Mubasher is a member of the community outreach and wet lab
+       research team for iGEM McMaster. He is currently completing an
+       undergraduate degree in the Bachelor of Health Sciences (Honours) program
+        at McMaster University. Outside of the lab Mobeen enjoys living an
+        active lifestyle, watching all types of anime and k-drama as well as
+        eating good food!
+    </desc>
+  </bio>
+  <bio id="Jinny">
+    <desc>Jinny is the head of Human Practices team of iGEM McMaster. As a
+      member of the Hannah Unit in Medical Humanities at McMaster University,
+      she is particularly interested in the sociological and legal factors in
+      the 20th and 21st century health care in relation to concurrent
+      urbanization and globalization. As a student researcher under the Forensic
+       Psychiatry Program at St. Joseph's Healthcare Hamilton, Jinny plans to
+       examine the impact of repetitive trans-cranial magnetic stimulation in
+       the joint-field of criminal justice and psychiatry. During her spare
+       times, Jinny enjoys Netflix. She is exceptionally sad that the 5th
+       season of Suits hasn't aired yet.
+    </desc>
+  </bio>
+  <bio id="Karanbir">
+    <desc>I'm a second year Health Sciences student with a keen interest in
+      bioengineering.  After school, I'm hoping to pursue a career in academic
+      medicine, or maybe software engineering, or maybe something else I haven't
+       discovered yet. Outside of school, hockey consumes my life.
+     </desc>
+  </bio>
+  <bio id="Melodie">
+    <desc>Melodie is a member of the  McMaster iGEM wet lab research team.
+      She has recently completed her freshman year in the Bachelor of Health
+      Sciences (Honours) program at McMaster University. She has previously
+      worked on identifying the roles of the ribosomal protein Der in E. coli
+      and determining the mechanism of the notch signalling pathway in breast
+      cancer with a particular focus on IL-23A and Th17. Currently, she is
+      engrossed in iGEM as well as a research project aimed at exploring the
+      relationship between the microbiome and human upper respiratory tract.
+      When not in a lab, Melodie preoccupies herself with reading her favourite
+      novel, watching movies, or rock climbing.
+    </desc>
+  </bio>
+  <bio id="Candy">
+    <desc>Candy is a member of the public relations team for iGEM McMaster. She
+      is currently enrolled  an undergraduate degree in the Bachelor of Health
+      Sciences (Honours) program at McMaster University. In addition to iGEM,
+      she is currently working in a lab researching ALS. Outside the lab Candy
+      enjoys watching tv shows and drawing.
+    </desc>
+  </bio>
+  <bio id="Nicolas">
+    <desc>Nicolas is a member of both the Dry Lab and Public Relations groups on
+       the McMaster iGEM team. He is working towards a B.Eng in Computer
+       Engineering at McMaster University. In addition to iGEM Nicolas is the
+       Director of Membership for SEDS Canada and heavily interested in space
+       development and robotics. He is also a video game and programming
+       enthusiast.
+     </desc>
+  </bio>
+  <bio id="Ian">
+    <desc>Ian Fare is a member of the dry lab and web development teams. He is
+      enrolled in the Integrated Science program at McMaster University,
+      concentrating in physics. He is also an undergraduate research assistant
+      studying variable stars in globular clusters, and investigating the use
+      of planetariums in university astronomy education. In his free time, he
+      enjoys sewing strange costumes, programming strange games, and writing
+      pretty average stories.
+    </desc>
+  </bio>
+  <bio id="Ramneet">
+    <desc>Ramneet Mann is the head of Community Outreach for iGEM McMaster, and
+      is also an active member of the wet lab research team. She is currently
+      completing an undergraduate degree in the Bachelor of Sciences at McMaster
+      University. Her other research outside of iGEM McMaster includes pediatric
+      emergency medicine, and arrhythmia and pacemaker studies in an electrophysiology
+      lab. Ramneet is additionally a very active member of various clubs and
+      services at McMaster, with a passion for diversity, multi-culturalism, and
+       charity work. In her spare time, she enjoys reading fantasy and fiction
+       novels such as Harry Potter and the Game of Thrones, and additionally
+       enjoys playing soccer at a competitive level.
+    </desc>
+  </bio>
+  <bio id="Rui">
+    <desc>Rui is involved in wet lab, human practice and community outreach
+      sub-teams. He is studying in the program of Honours Biology and
+      Pharmacology (Co-op), McMaster University. Rui is currently working in Dr.
+      Luke Janssen's lab to investigate the roles of calcium signalling in
+      pulmonary fibroblasts and their relations to fibrosis. His current
+      projects also include studying the localization of synaptotagmin 1/2 and
+      vesicular glutamate transporter 3 in rat cerebellum. Apart from researches,
+      Rui is also a member of McMaster Biology and Pharmacology Society.
+    </desc>
+  </bio>
+  <bio id="Christine">
+    <desc>Christine is member of dry lab for iGEM McMaster and a public
+      relations team member. She is currently completing an undergraduate degree
+       in the Bachelor of Health Sciences (Honours) program at McMaster
+       University. Outside the lab Christine enjoys writing and is an occasional
+        figure skater when the weather is cold.
+    </desc>
+  </bio>
+  <bio id="Yosef">
+    <desc>Yosef is in his third year of the Bachelor of Health Sciences
+      (Honours) program at McMaster University and is a Head of the Wet Lab
+      team, but dabbles with the business side of iGEM as well. When he is not
+      in the lab you can find him...well we’ll let you know when we find him
+      outside the lab. Outside of iGEM his interests include not writing about
+      himself and (insert clever sentence/random fact about self).
+    </desc>
+  </bio>
+  <bio id="Fei">
+    <desc>Fei Fei is the head of public relations for iGEM McMaster and a wet
+      lab research team member. She is currently completing an undergraduate
+      degree in the Bachelor of Health Sciences (Honours) program at McMaster
+      University. In addition to iGEM, her past and current research projects
+      include an evaluation of Pioglitazone as an antihyperglycemic agent, and
+      the relationship between early life microbial and nutrient interactions
+      and postnatal metabolic dysfunction. Outside the lab Fei Fei is a flautist
+       for the Health Science Musical Orchestra, an avid watcher of Korean
+       dramas, and enjoys recreational ice skating.
+    </desc>
+  </bio>
+</bios>
