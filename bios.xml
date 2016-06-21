@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bios>
-  <bio id="Dummy">
-    <desc>Dummy is an idiot</desc>
-  </bio>
-
   <bio id="Tony">
     <desc>Tony is a member of the wet lab research team. He is a 2nd year
       undergraduate at McMaster University in the Bachelor of Health Sciences
