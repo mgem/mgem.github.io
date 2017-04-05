@@ -7,7 +7,7 @@ categories:
 - blog
 
 img: http://news.directorzcut.com/wp-content/uploads/2017/03/325396-thumb.jpg
-thumb: https://images.mic.com/tnbmcbzerxpiazdsdozcm17c61r89ob8xissge3nu9brj4vx0gtza0g4akwsvgfa.jpg
+thumb: week-21-thumb.jpg
 ---
 
 Here is some sample text! I sure love biology! 
