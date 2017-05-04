@@ -3,7 +3,7 @@ layout: post
 title: "Discovery Days"
 date:   2016-09-11 08:00:00
 author: Fei Fei
-ategories: 
+categories: 
 - blog
 
 img: discoveryday-final-header.png
