@@ -12,7 +12,7 @@ thumb: discoveryday-final-thumbnail.png
 
 On Thursday May 27th, McMaster iGEM hosted two Real Lab Experiences workshops for high school students across the city as part of Discovery Day, run by the Canadian Medical Hall of Fame and the Hamilton Health Sciences Corporation in collaboration with McMaster University and St. Joseph’s Healthcare Hamilton. Although it’s been a while since the event, we would like to tell you about the experience, and share some photos!
 
-![A gel is prepared in front of each group of students, here by our co-president Maxwell Ng, for the afternoon DNA gel lab.](https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-09-11/01.jpg){: .center-image .responsive-image }
+![A gel is prepared in front of each group of students, here by our co-president Maxwell Ng, for the afternoon DNA gel lab.](https://raw.githubusercontent.com/mgem/mgem.github.io/master/img/blog/post_content/2016-09-11/01.jpg =100x){: .center-image .responsive-image }
 
 *A gel is prepared in front of each group of students, here by our co-president Maxwell Ng, for the afternoon DNA gel lab.*
 
