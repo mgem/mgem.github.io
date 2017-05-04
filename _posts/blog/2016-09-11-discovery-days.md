@@ -7,7 +7,7 @@ categories:
 - blog
 
 img: discoveryday-final-header.png
-thumb: discoveryday-final-thumbnail.jpg
+thumb: discoveryday-final-thumbnail.png
 ---
 
 On Thursday May 27th, McMaster iGEM hosted two Real Lab Experiences workshops for high school students across the city as part of Discovery Day, run by the Canadian Medical Hall of Fame and the Hamilton Health Sciences Corporation in collaboration with McMaster University and St. Joseph’s Healthcare Hamilton. Although it’s been a while since the event, we would like to tell you about the experience, and share some photos!
